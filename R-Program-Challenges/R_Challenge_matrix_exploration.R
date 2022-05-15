@@ -1,0 +1,46 @@
+## R_Challenge_matrix_exploration.R
+##########################################################################
+## INSTRUCTOR: Christopher Fariss
+##
+## COURSE NAME: Data Science for International Studies (DSIS)
+## University of Michigan, Winter 2022, Winter 2021, Winter 2020
+##
+## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
+## University of Essex Summer School 2022, 2021, 2020
+##
+## Date: 2022-05-17
+##
+## Please e-mail me if you find any errors or have and suggestions (either email is fine)
+## e-mail: cjf0006@gmail.com
+## e-mail: cjfariss@umich.edu
+##########################################################################
+## Instructions:
+##
+## These challenges are meant to be just that, challenging. They should also be fun. I encourage you to think creatively and collaboratively. Getting stuck or not finishing all the steps is expected and encouraged. This is how learning works.
+##
+## Always start with step (1) and then continue to each step as time permits.
+## Don't worry about completing each step. Document your code for each step.
+## You may wish to come back to some of the harder steps as you progress through the course.
+## Note that some of the steps may ask you to use skills we have not yet covered in the course.
+## Don't worry about these steps now but definitely think through the programming logic if you are stuck and make plans to come back to try them once you feel ready.
+##
+##########################################################################
+##
+## Steps for the Challenge:
+##
+## (1a) create a numeric vector of any n size
+## (1b) determine the length of the vector, save this value as an object
+## (1c) how many coordinates in the vector are even? Save this value as an object
+## (2a) create a numeric matrix of equal size which is square (i.e., m==n)
+## (2b) determine the size of the dimensions of the matrix, save these values as a single object
+## (2c) how many coordinates in the matrix are made of only even numbers? Save this value as an object?
+## (3a) create a numeric array of 3 dimensions of equal size
+## (3b) determine the size of the dimensions of the array, save these values as a single object
+## (3c) how many coordinates in the array are made of only even numbers? Save this value as an object?
+## (4a) write a function to repeat the process described in (3)
+## (4b) write a function to repeat the above process for an array of a pre-determined dimension of equal size (hint: start with a pre-defined number of dimensions)
+## (5) calculate the relationship between the size of the vector/matrix/array from above and compare it to the number of coordinates that have only positive values. How does this value change as a function of the dimensions of the array? Does this value change when the size of the vector/matrix/array changes?
+## (6) Can this process be extended to an array of arbitrary size?
+##
+##########################################################################
+
