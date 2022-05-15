@@ -1,5 +1,5 @@
 # R-Program-Challenges
-R Program Challenges 
+R Program Challenges for my Essex graduate summer school course and my University of Michigan undergraduate data science course. 
 
 These challenges are meant to be just that, challenging. They should also be fun. I encourage you to think creatively and collaboratively. Getting stuck or not finishing all the steps is expected and encouraged. This is how learning works.
 
