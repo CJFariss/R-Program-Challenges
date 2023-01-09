@@ -38,7 +38,7 @@
 ## (8) think about the output of the function in (7), now write a new function that generalizes this process for 
 ## two vectors of the same length that preserves the order of the first vector relative to the second 
 ## (hint: you'll look for the max values of the second vector for each group of equal values from the first vector).
-## (9) generalize the program for step (8) for any number of columns (or the total number of columns that are of equal length)
+## (9) generalize the function for step (8) for any number of columns (or the total number of columns that are of equal length)
 ##
 ##########################################################################
 
