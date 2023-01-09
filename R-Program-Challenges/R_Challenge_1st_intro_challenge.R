@@ -36,3 +36,26 @@
 ##
 ##########################################################################
 
+## step 1
+## I define arbitrary to mean any value I select
+vec <- 1:10
+
+arbitrary_len <-  5
+
+vec <- 1:arbitrary_len
+
+
+## step 2
+## I know the length is 10 because I programmed that way
+length(vec)
+
+arbitrary_len
+
+## let's prove it
+length(vec) == arbitrary_len
+
+## step 3
+vec == 7
+vec == 3 
+
+any(vec == 7)

@@ -28,7 +28,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) generate a 1-D vector x of aribtrary length
+## (1) generate a 1-D vector x of arbitrary length
 ## (2) choose a position in the vector (coordinate)
 ## (3) generate a new vector with the distances from the choosen position in the vector to every other element in the vector. The distance formula we will use is sqrt((position_vector - coordinate)^2)
 ## (4) repeat steps 1-3 for a 2-D matrix xy with dimensions x and y. The distance between two cells in a matrix with coordinates (x1, y1) and (x2, y2) is the square root of the squared distances (hint use the sqrt() function): sqrt((x1 - x2)^2 + (y1 - y2)^2).
