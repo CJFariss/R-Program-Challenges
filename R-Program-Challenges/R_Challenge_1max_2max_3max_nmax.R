@@ -3,7 +3,7 @@
 ## INSTRUCTOR: Christopher Fariss
 ##
 ## COURSE NAME: Data Science for International Studies (DSIS)
-## University of Michigan, Winter 2022, Winter 2021, Winter 2020
+## University of Michigan, Winter 2023, Winter 2022, Winter 2021, Winter 2020
 ##
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
@@ -38,6 +38,7 @@
 ## (8) think about the output of the function in (7), now write a new function that generalizes this process for 
 ## two vectors of the same length that preserves the order of the first vector relative to the second 
 ## (hint: you'll look for the max values of the second vector for each group of equal values from the first vector).
+## (9) generalize the program for step (8) for any number of columns (or the total number of columns that are of equal length)
 ##
 ##########################################################################
 
