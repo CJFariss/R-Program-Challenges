@@ -47,4 +47,6 @@
 ##
 ## Congragulations, you have iteratively calculated the sqrt of a number without using the built in sqrt() function.
 ##
+## (8) Compare the the output of your function from line (7) to the sqrt() function. Which value is more precises? Can you increase the precision of the function from step (7)? 
+##
 ##########################################################################
