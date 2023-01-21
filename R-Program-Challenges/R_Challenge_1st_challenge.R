@@ -1,4 +1,4 @@
-## R_Challenge_1st_intro_challenge.R
+## R_Challenge_1st_challenge.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -28,11 +28,11 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) create a numeric vector of arbitrary length
+## (1) Create a numeric vector of arbitrary length.
 ##
-## (2) count the number of elements in the vector
+## (2) Count the number of elements in the vector.
 ##
-## (3) select any integer, are any of the elements in the vector the same value as the selected integer?
+## (3) Select any integer, are any of the elements in the vector the same value as the selected integer?
 ##
 ##########################################################################
 
