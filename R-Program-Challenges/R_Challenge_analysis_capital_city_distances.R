@@ -1,4 +1,4 @@
-## R_Challange_calculate_capital_city_distances.R
+## R_Challenge_analysis_capital_city_distances.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -38,10 +38,11 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Use the function defined for you below to calculate all of the distances from every capital to every other capital
+## (1) Use the function defined for you below to calculate all of the distances from every capital to every other capital.
+##
 ## (2) Summarize these distances for each state and for all the states (use some graph functions like boxplot(), plot(), or barplot().
+##
 ## (3) Plot the distribution of the distances for each country relative to all others to see whether one country of your choice has a different distribution of distances then the average country and all other countries. You can also use the t.test() function to test this. Or you can randomly permute the values to see compute the same test.
-## (4)
 ##
 ##########################################################################
 

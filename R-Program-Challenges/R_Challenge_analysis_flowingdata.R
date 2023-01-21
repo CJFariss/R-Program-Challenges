@@ -1,4 +1,4 @@
-## R_Challenge_visualisation_OurWorldindata.R
+## R_Challenge_analysis_flowingdata.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -26,11 +26,13 @@
 ##
 ##########################################################################
 ##
-## Steps for the ourworldindata visualization challenge
+## Steps for the flowingdata visualization challenge
 ##
-## (1) Go to ourworldindata.org
-## (2) Select any one data visualization to replicate.
-## (3) Reproduce the data visualization using R.
+## (1) Go to flowingdata.com
+## (2) Explore the blog posts and select one data visualization to replicate.
+## (3) Reproduce the data visualization using R (note that not all of the visualizations at flowingdata.com are reproducible in R).
+## 
+## Note: You can reproduce xkcd style graphs using the xkcd library: https://cran.r-project.org/web/packages/xkcd/vignettes/xkcd-intro.pdf
 ##
 ##########################################################################
 

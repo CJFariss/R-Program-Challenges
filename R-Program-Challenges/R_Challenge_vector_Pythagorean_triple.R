@@ -1,4 +1,4 @@
-## R_Challenge_calculate_Pythagorean_triple.R
+## R_Challenge_vector_Pythagorean_triple.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -8,7 +8,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -29,9 +29,13 @@
 ## Steps for the Challenge
 ##
 ## (1) Write a program to take a non-negative integer c. Are there two integers a and b such that a^2 + b^2 = c^2. This is a Pythagorean triple.
+##
 ## (2) If TRUE, what are the numbers for a and b that satisfy the equation?
-## (3) Write a function to complete the programming task.
-## (4) Extend the function created for (2) to complete the programming task for a vector of numbers.
+##
+## (3) Write a function to complete the programming task from steps (1) and (2).
+##
+## (4) Extend the function created for (3) to complete the programming task for a vector of numbers.
+##
 ## (5) Calculate the distance between values that satisfy the equation in (1) using the vector in (4)
 ##
 ##########################################################################
