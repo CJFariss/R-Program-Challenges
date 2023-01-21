@@ -5,4 +5,4 @@ These challenges are meant to be just that, challenging. They should also be fun
 
 Always start with step (1) and then continue to each step as time permits. Don't worry about completing each step. Document your code for each step. You may wish to come back to some of the harder steps as you progress through the course. Note that some of the steps may ask you to use skills we have not yet covered in the course. Don't worry about these steps now but definitely think through the programming logic if you are stuck and make plans to come back to try them once you feel ready.
 
-I have tried to provide informative file names. R_Challenge_ is the 
+I have tried to provide informative file names. R_Challenge_ is the first part of each file name. The next part specifies the primary structure or concept that the challange is designed to teach to students (e.g. vector, matrix, analysis, probability, simulation, text, etc.).
