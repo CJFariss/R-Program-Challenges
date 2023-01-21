@@ -1,4 +1,4 @@
-## R_Challenge_probability_dice_differences.R
+## R_Challenge_simulation_dice_differences.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
