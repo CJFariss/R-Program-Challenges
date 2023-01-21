@@ -3,7 +3,7 @@
 ## INSTRUCTOR: Christopher Fariss
 ##
 ## COURSE NAME: Data Science for International Studies (DSIS)
-## University of Michigan, Winter 2022, Winter 2021, Winter 2020
+## University of Michigan, Winter 2023, Winter 2022, Winter 2021, Winter 2020
 ##
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
@@ -28,19 +28,27 @@
 ##
 ## Steps for the Challenge:
 ##
-## (1a) create a numeric vector of any n size
-## (1b) determine the length of the vector, save this value as an object
-## (1c) how many coordinates in the vector are even? Save this value as an object
-## (2a) create a numeric matrix of equal size which is square (i.e., m==n)
-## (2b) determine the size of the dimensions of the matrix, save these values as a single object
-## (2c) how many coordinates in the matrix are made of only even numbers? Save this value as an object?
-## (3a) create a numeric array of 3 dimensions of equal size
-## (3b) determine the size of the dimensions of the array, save these values as a single object
-## (3c) how many coordinates in the array are made of only even numbers? Save this value as an object?
-## (4a) write a function to repeat the process described in (3)
-## (4b) write a function to repeat the above process for an array of a pre-determined dimension of equal size (hint: start with a pre-defined number of dimensions)
-## (5) calculate the relationship between the size of the vector/matrix/array from above and compare it to the number of coordinates that have only positive values. How does this value change as a function of the dimensions of the array? Does this value change when the size of the vector/matrix/array changes?
-## (6) Can this process be extended to an array of arbitrary size?
+## (1a) Create a numeric vector of any n size.
+## (1b) Determine the length of the vector, save this value as an object.
+## (1c) How many coordinates in the vector are even? Save this value as an object.
+##
+## (2a) Create a numeric matrix of equal size which is square (i.e., m==n).
+## (2b) Determine the size of the dimensions of the matrix, save these values as a single object.
+## (2c) How many coordinates in the matrix are made of only even numbers? Save this value as an object.
+##
+## (3a) Create a numeric array of 3 dimensions of equal size.
+## (3b) Determine the size of the dimensions of the array, save these values as a single object.
+## (3c) How many coordinates in the array are made of only even numbers? Save this value as an object?
+##
+## (4a) Write a function to repeat the process described in (3).
+## (4b) Write a function to repeat the above process for an array of a pre-determined dimension of equal size (hint: start with a pre-defined number of dimensions).
+##
+## (5a) Calculate the relationship between the size of the vector/matrix/array from above and compare it to the number of coordinates that have only positive values.
+## (5b) How does this value change as a function of the dimensions of the array? Does this value change when the size of the vector/matrix/array changes?
+##
+## Note: this next part is difficult in R but less so in some other programming languages.
+##
+## (6) Can this process be extended to an array of arbitrary size? Can you write a function to complete this task?
 ##
 ##########################################################################
 
