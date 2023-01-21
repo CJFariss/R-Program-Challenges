@@ -1,4 +1,4 @@
-## R_Challenge_vis_OurWorldindata.R
+## R_Challenge_dice_zombies.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -8,7 +8,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -26,11 +26,9 @@
 ##
 ##########################################################################
 ##
-## Steps for the ourworldindata visualization challenge
+## Steps for the Challenge:
 ##
-## (1) Go to ourworldindata.org
-## (2) Select any one data visualization to replicate.
-## (3) Reproduce the data visualization using R.
+## (1)
 ##
 ##########################################################################
 

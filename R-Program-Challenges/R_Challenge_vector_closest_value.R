@@ -1,9 +1,9 @@
-## R_Challenge_dice_function.R
+## R_Challenge_vector_closest_value.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
 ## COURSE NAME: Data Science for International Studies (DSIS)
-## University of Michigan, Winter 2022, Winter 2021, Winter 2020
+## University of Michigan, Winter 2023, Winter 2022, Winter 2021, Winter 2020
 ##
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
@@ -26,12 +26,17 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge:
+## Steps for the Challenge
 ##
-## (1) Write a function that simulates the role of one or more dice using the sample() function
-## (2) The function should allow for two arguments: dice_type, dice_number
+## (1) Create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to 5 (i.e., 2 < n <= 5).
 ##
-## ... fill in more steps here as in-class groups ...
+## (2a) Select an arbitrary value. What is the distance between this value and the numeric values in the vector?
+## (2b) Select another arbitrary value What is the distance between this value and the numeric values in the vector? Is it close or further away from the values in the vector than the arbitray value selected in step (2a)?
+##
+## What is the closest number to the values in the vector created in step (1)?
 ##
 ##########################################################################
+
+
+
 
