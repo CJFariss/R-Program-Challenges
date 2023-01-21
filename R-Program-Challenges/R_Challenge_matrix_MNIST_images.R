@@ -1,4 +1,4 @@
-## R_Challenge_matrix_MNIST_matrices.R
+## R_Challenge_matrix_MNIST_images.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -8,7 +8,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -28,15 +28,23 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) read in the MNIST data from the dslabs package
-## (2) use base R functions to describe the structure and contents of the data frame (what are each of the elements)?
-## (3) re-scale the data by the maximum value so that the range of the x variables is from 0 to 1
-## (4) use the image() function to graph the first 100 entries (hint: use a for loop to add multiple graphs
-## (5) calculate the sum of the x variables for each row in the data
-## (6) use the sum variable to predict when y=0 or y=1
-## (7) calculate the sums for the four, non-overlapping 7 by 7 matrices for each row in the data (hint: there are 28 rows and 28 columns)
-## (8) use the 4 new sum variables to predict when y=0 or y=1
-## (9) compare the predictive ability of the two models using the test data
+## (1) Read in the MNIST data from the dslabs package.
+##
+## (2) Use base R functions to describe the structure and contents of the data frame (what are each of the elements)?
+##
+## (3) Re-scale the data by the maximum value so that the range of the x variables is from 0 to 1.
+##
+## (4) Use the image() function to graph the first 100 entries (hint: use a for loop to add multiple graphs.
+##
+## (5) Calculate the sum of the x variables for each row in the data.
+##
+## (6) Use the sum variable to predict when y=0 or y=1.
+##
+## (7) Calculate the sums for the four, non-overlapping 7 by 7 matrices for each row in the data (hint: there are 28 rows and 28 columns).
+##
+## (8) Use the 4 new sum variables to predict when y=0 or y=1.
+##
+## (9) Compare the predictive ability of the two models using the test data.
 ##
 ##########################################################################
 
