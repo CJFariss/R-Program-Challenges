@@ -1,4 +1,4 @@
-## R_Challenge_dice_unraveling.R
+## R_Challenge_analysis_dice_unraveling.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -31,9 +31,13 @@
 ## Unraveling a 20-sided dice
 ##
 ## (1) Pick a starting coordinate on a real 20-sided die (starting_coordinate). Recall that each plane on a 20-sided dice is an equiladeral triangle. Each side of the equiladeral triangle connects to 3 other equiladeral triangles. There are 20 sides of the dice.
+##
 ## (2) Create a vector of values from every starting coordinate on the 20-sided die, starting with the starting_coordinate and ending with the value on the opposite side of the dice (Note that the two parrallel sides of the 20 sided die sum to 21 for all 10 pairs, 20 cases).
+##
 ## (3) How many unique paths connect the starting_coordinate to the ending_coordinate?
+##
 ## (4) Create a dataframe or list with each uniquie path for each starting_coordinate. How many unique paths exist on the 20-sided die?
+##
 ## (5a) What is the shortest path from the starting_coordinate back to itself?
 ## (5b) What is the longest path from the starting_coordinate back to itself?
 ##

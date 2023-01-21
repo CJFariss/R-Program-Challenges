@@ -1,4 +1,4 @@
-## R_Challenge_dice_zombies.R
+## R_Challenge_probability_dice_zombies.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##

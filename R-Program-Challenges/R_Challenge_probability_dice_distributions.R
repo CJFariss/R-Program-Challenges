@@ -1,4 +1,4 @@
-## R_Challenge_dice_function.R
+## R_Challenge_probability_dice_distributions.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -28,10 +28,7 @@
 ##
 ## Steps for the Challenge:
 ##
-## (1) Write a function that simulates the role of one or more dice using the sample() function
-## (2) The function should allow for two arguments: dice_type, dice_number
-##
-## ... fill in more steps here as in-class groups ...
+## (1)
 ##
 ##########################################################################
 
