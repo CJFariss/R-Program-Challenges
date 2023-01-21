@@ -1,4 +1,4 @@
-## R_Challenge_probability_dice_function.R
+## R_Challenge_1st_dice_challenge.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
