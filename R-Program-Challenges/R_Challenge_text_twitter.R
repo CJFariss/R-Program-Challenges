@@ -1,4 +1,4 @@
-## R_Challenge_twitter.R
+## R_Challenge_text_twitter.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##

@@ -1,4 +1,4 @@
-## R_Challenge_high_card_draw.R
+## R_Challenge_text_non_repeating_character_answer.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -26,19 +26,16 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge:
+## Steps for the Challenge
+
 ##
-## (1) as a character vector, define a deck or cards that ranges from "2" to "Ace" so that all of the standard cards are present as character strings (don't worry about suits, so just 13 cards)
-## (2) generate another vector that contains the coordinates for the character vector created in step (1), this will also be of length 13
-## (3) program a draw of 5 cards from the deck of cards vector at random (hint: use the sample function in the base library or your shuffle function)
-## (4) program two draws of cards to player1 and player2 (hint: use 10 of the 13 cards, for 5 cards in player1's deck and player2's deck)
-## (5) determine with a logical statement which player has the highest card
-## (6) simulate a series of games between player1 and player2, who wins the most often?, does either player have an advantage?
-## (7) write a function to accomplish (1) - (5)
-## (8) write a separate function to accomplish (6)
-## (9) combine the functions created in (7) and (8)
+## start with step (1). Continue to each step as time permits. Don't worry about completing each step.
+##
+## write a function that:
+## (1) takes a string and finds the first non-repeating character.
+## (2) return the index value (i.e., the coordinate position).
+## (3) If the character does not exist, return -1.
 ##
 ##########################################################################
-
 
 

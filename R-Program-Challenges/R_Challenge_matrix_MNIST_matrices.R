@@ -1,4 +1,4 @@
-## R_Challenge_Toeplitz_matrix_diagnols_answer.R
+## R_Challenge_matrix_MNIST_matrices.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -13,7 +13,6 @@
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
 ## e-mail: cjfariss@umich.edu
-##
 ##########################################################################
 ## Instructions:
 ##
@@ -27,16 +26,41 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge:
+## Steps for the Challenge
 ##
-## A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
-##
-## (1) generate an M x N matrix, and determine if it is TRUE that, if and only if, the matrix is Toeplitz.
-## (2) return the diagnols as a list object.
-## (3) if the matrix is not Toeplitz, return the diagnol(s) from lower to upper that cause the condition to be FALSE.
-## (4) create a function to complete steps (1) - (3)
+## (1) read in the MNIST data from the dslabs package
+## (2) use base R functions to describe the structure and contents of the data frame (what are each of the elements)?
+## (3) re-scale the data by the maximum value so that the range of the x variables is from 0 to 1
+## (4) use the image() function to graph the first 100 entries (hint: use a for loop to add multiple graphs
+## (5) calculate the sum of the x variables for each row in the data
+## (6) use the sum variable to predict when y=0 or y=1
+## (7) calculate the sums for the four, non-overlapping 7 by 7 matrices for each row in the data (hint: there are 28 rows and 28 columns)
+## (8) use the 4 new sum variables to predict when y=0 or y=1
+## (9) compare the predictive ability of the two models using the test data
 ##
 ##########################################################################
+
+## load package
+library(dslabs)
+
+## load MNIST data
+mnist <- read_mnist()
+
+## describe the structure of the data
+
+
+## re-scale the data
+
+
+## graph hint:
+## mfrow takes to numbers which describes the number of rows and columns to place graphs
+## mar controls the margin around the plot space
+par(mfrow=c(10,10), mar=c(2,2,.5,.5))
+image(...)
+
+
+
+
 
 
 

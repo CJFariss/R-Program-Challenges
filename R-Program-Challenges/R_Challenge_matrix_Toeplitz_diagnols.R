@@ -1,4 +1,4 @@
-## R__Challenge_count_submatrices.R
+## R_Challenge_matrix_Toeplitz_diagnols.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -13,6 +13,7 @@
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
 ## e-mail: cjfariss@umich.edu
+##
 ##########################################################################
 ## Instructions:
 ##
@@ -26,13 +27,16 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge
+## Steps for the Challenge:
 ##
-## (1) Generate a m * n matrix of 1s and 0s
-## (2) Determine how many square-submatrices have all 1s. The square submatrices can be as small as 1-by-1
-## (3) Determine the count of each square submatrices of different size.
-## (4) Write a function to complete these programming tasks.
-## (5) Write a program to graphically display the results from (2) and (3).
+## A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
+##
+## (1) generate an M x N matrix, and determine if it is TRUE that, if and only if, the matrix is Toeplitz.
+## (2) return the diagnols as a list object.
+## (3) if the matrix is not Toeplitz, return the diagnol(s) from lower to upper that cause the condition to be FALSE.
+## (4) create a function to complete steps (1) - (3)
 ##
 ##########################################################################
+
+
 

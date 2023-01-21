@@ -1,4 +1,4 @@
-## R_Challenge_MNIST_matrices.R
+## R__Challenge_matrix_count_of_submatrices.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -8,7 +8,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -28,39 +28,11 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) read in the MNIST data from the dslabs package
-## (2) use base R functions to describe the structure and contents of the data frame (what are each of the elements)?
-## (3) re-scale the data by the maximum value so that the range of the x variables is from 0 to 1
-## (4) use the image() function to graph the first 100 entries (hint: use a for loop to add multiple graphs
-## (5) calculate the sum of the x variables for each row in the data
-## (6) use the sum variable to predict when y=0 or y=1
-## (7) calculate the sums for the four, non-overlapping 7 by 7 matrices for each row in the data (hint: there are 28 rows and 28 columns)
-## (8) use the 4 new sum variables to predict when y=0 or y=1
-## (9) compare the predictive ability of the two models using the test data
+## (1) Generate a m * n matrix of 1s and 0s
+## (2) Determine how many square-submatrices have all 1s. The square submatrices can be as small as 1-by-1
+## (3) Determine the count of each square submatrices of different size.
+## (4) Write a function to complete these programming tasks.
+## (5) Write a program to graphically display the results from (2) and (3).
 ##
 ##########################################################################
-
-## load package
-library(dslabs)
-
-## load MNIST data
-mnist <- read_mnist()
-
-## describe the structure of the data
-
-
-## re-scale the data
-
-
-## graph hint:
-## mfrow takes to numbers which describes the number of rows and columns to place graphs
-## mar controls the margin around the plot space
-par(mfrow=c(10,10), mar=c(2,2,.5,.5))
-image(...)
-
-
-
-
-
-
 

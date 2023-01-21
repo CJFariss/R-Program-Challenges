@@ -1,4 +1,4 @@
-## R_Challenge_1max_2max_3max_nmax.R
+## R_Challenge_vector_1max_2max_3max_nmax.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -28,16 +28,22 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) create a numeric vector of arbitrary length
-## (2) determine the maximum value in the vector
-## (3) determine the position in the vector at which() the maximum resides (if there is a tie, report both positions)
-## (4) determine the second largest max value in the vector
-## (5) report the position in the vector at which() the maximum resides (if there is a tie, report both positions)
-## (6) repeat the same process for the third max value
-## (7) write a function that generalizes this process for any number of max values up to the length of the vector.
-## (8) think about the output of the function in (7), now write a new function that generalizes this process for 
-## two vectors of the same length that preserves the order of the first vector relative to the second 
-## (hint: you'll look for the max values of the second vector for each group of equal values from the first vector).
+## (1) Create a numeric vector of arbitrary length.
+##
+## (2) Determine the maximum value in the vector.
+##
+## (3) Determine the position in the vector at which() the maximum resides (if there is a tie, report both positions).
+##
+## (4) Determine the second largest max value in the vector.
+##
+## (5) Report the position in the vector at which() the maximum resides (if there is a tie, report both positions).
+##
+## (6) Repeat the same process for the third max value.
+##
+## (7) Write a function that generalizes this process for any number of max values up to the length of the vector.
+##
+## (8) Think about the output of the function in (7), now write a new function that generalizes this process for two vectors of the same length that preserves the order of the first vector relative to the seconn (hint: you'll look for the max values of the second vector for each group of equal values from the first vector).
+##
 ## (9) generalize the function for step (8) for any number of columns (or the total number of columns that are of equal length)
 ##
 ##########################################################################

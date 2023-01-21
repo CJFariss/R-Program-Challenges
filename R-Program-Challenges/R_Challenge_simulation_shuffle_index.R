@@ -1,4 +1,4 @@
-## R_Challenge_shuffle_index.R
+## R_Challenge_simulation_shuffle_index.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -8,7 +8,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com

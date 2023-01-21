@@ -1,4 +1,4 @@
-## R_Challenge_non_repeating_character_answer.R
+## R_Challenge_probability_distributions.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
