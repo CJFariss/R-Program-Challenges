@@ -8,7 +8,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -29,10 +29,10 @@
 ## Steps for the Challenge
 ##
 ## (1) Generate a m * n matrix of 1s and 0s
-## (2) Determine how many square submatrices have all 1s. The square submatrices can be as small as 1-by-1
-## (3) Determine the count of each square submatrices of different size
-## (4) Write a function to complete these programming tasks
-## (5) Write a program to graphically display the results from (2) and (3)
+## (2) Determine how many square-submatrices have all 1s. The square submatrices can be as small as 1-by-1
+## (3) Determine the count of each square submatrices of different size.
+## (4) Write a function to complete these programming tasks.
+## (5) Write a program to graphically display the results from (2) and (3).
 ##
 ##########################################################################
 
