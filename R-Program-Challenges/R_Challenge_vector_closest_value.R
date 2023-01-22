@@ -33,7 +33,7 @@
 ## (2a) Select an arbitrary value. What is the distance between this value and the numeric values in the vector?
 ## (2b) Select another arbitrary value What is the distance between this value and the numeric values in the vector? Is it close or further away from the values in the vector than the arbitray value selected in step (2a)?
 ##
-## What is the closest number to the values in the vector created in step (1)?
+## (3) What is the closest number to the values in the vector created in step (1)?
 ##
 ##########################################################################
 

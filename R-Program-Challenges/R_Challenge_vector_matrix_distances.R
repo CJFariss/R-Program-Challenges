@@ -3,7 +3,7 @@
 ## INSTRUCTOR: Christopher Fariss
 ##
 ## COURSE NAME: Data Science for International Studies (DSIS)
-## University of Michigan, Winter 2022, Winter 2021, Winter 2020
+## University of Michigan, Winter 2023, Winter 2022, Winter 2021, Winter 2020
 ##
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
@@ -28,13 +28,18 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) generate a 1-D vector x of arbitrary length
-## (2) choose a position in the vector (coordinate)
-## (3) generate a new vector with the distances from the chosen position in the vector to every other element in the vector. The distance formula we will use is sqrt((position_vector - coordinate)^2)
-## (4) repeat steps 1-3 for a 2-D matrix xy with dimensions x and y. The distance between two cells in a matrix with coordinates (x1, y1) and (x2, y2) is the square root of the squared distances (hint use the sqrt() function): sqrt((x1 - x2)^2 + (y1 - y2)^2).
-## (5) generalize (4) for an array of 3 dimensions. The distance between two cells in a 3-D array with coordinates (x1, y1, z1) and (x2, y2, z2) is the square root of the squared distances: sqrt((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2)
-## (6) write a function for (1), (4), and (5)
-## (7) write a function to generalize this process for an array of any dimensions
+## (1) Generate a 1-D vector x of arbitrary length.
+##
+## (2) Choose a position in the vector (coordinate).
+##
+## (3) Generate a new vector with the distances from the chosen position in the vector to every other element in the vector. The distance formula we will use is sqrt((position_vector - coordinate)^2).
+##
+## (4) Repeat steps 1-3 for a 2-D matrix xy with dimensions x and y. The distance between two cells in a matrix with coordinates (x1, y1) and (x2, y2) is the square root of the squared distances (hint use the sqrt() function): sqrt((x1 - x2)^2 + (y1 - y2)^2).
+##
+## (5) Generalize (4) for an array of 3 dimensions. The distance between two cells in a 3-D array with coordinates (x1, y1, z1) and (x2, y2, z2) is the square root of the squared distances: sqrt((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2).
+## (6) Write a function for (1), (4), and (5).
+##
+## (7) Write a function to generalize this process for an array of any dimensions.
 ##
 ##########################################################################
 
