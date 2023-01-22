@@ -31,10 +31,13 @@
 ##
 ## A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
 ##
-## (1) generate an M x N matrix, and determine if it is TRUE that, if and only if, the matrix is Toeplitz.
-## (2) return the diagnols as a list object.
-## (3) if the matrix is not Toeplitz, return the diagnol(s) from lower to upper that cause the condition to be FALSE.
-## (4) create a function to complete steps (1) - (3)
+## (1) Generate an M x N matrix, and determine if it is TRUE that, if and only if, the matrix is Toeplitz.
+##
+## (2) Return the diagnols as a list object.
+##
+## (3) If the matrix is not Toeplitz, return the diagnol(s) from lower to upper that cause the condition to be FALSE.
+##
+## (4) Create a function to complete steps (1) - (3)
 ##
 ##########################################################################
 
