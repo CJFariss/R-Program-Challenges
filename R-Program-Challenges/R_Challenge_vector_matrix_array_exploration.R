@@ -1,4 +1,4 @@
-## R_Challenge_matrix_exploration.R
+## R_Challenge_vector_matrix_array_exploration.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
