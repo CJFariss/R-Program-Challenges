@@ -1,4 +1,4 @@
-## R_Challenge_text_graph.R
+## R_Challenge_matrix_flip_rotation.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -8,11 +8,12 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
 ## University of Essex Summer School 2022, 2021, 2020
 ##
-## Date: 2022-05-17
+## Date: 2023-01-20
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
 ## e-mail: cjfariss@umich.edu
+##
 ##########################################################################
 ## Instructions:
 ##
@@ -26,18 +27,19 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge
+## Steps for the Challenge:
 ##
-## write a function that:
-## (1) that reads in each line of texas_map_ascii.txt
-## (2) convert the text to 1 or 0. If the the text is a space, cover to 0, otherwise convert to 1
-## (3) alternatively, otherwise cover to some value greater than 0 but less than or equal to 1
-## (4) create a list object with each line of coverted data
-## (5) graph the data in the list object
+## (1) Generate a character matrix.
+##
+## (2) Rotate the matrix 90 degrees
+##
+## (3) Flip the matrix over the 45 degree line or main diagnol of the matrix.
+##
+## (4) Write a function to complete step (2) and step (3).
+##
+## (5) The rotation and flip of the matrix is equivalent to a matrix transposition which you can also accomplish using the transposition function: t(). Check to see if you program from step (2) and step (3) create an equivalent sructure to the t() function.
 ##
 ##########################################################################
 
-texas <- readLines("texas_map_ascii.txt")
-texas
 
 

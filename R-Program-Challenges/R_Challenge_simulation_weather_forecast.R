@@ -43,6 +43,8 @@
 ## (6c) What is the probability of each weather type occuring for a simulated set of n-week periods with the same starting condition?
 ## (6d) How many weeks until the probabilites converge? Or put another way, how manty weeks until you can no longer determine the starting condition?
 ##
+## Congragulations, you have programmed a Markov Chain.
+##
 ## The next steps will make use of tools we will begin to consider in the second half of the class but you have the skills necessary to begin thinking through these steps already
 ##
 ## These next steps go beyond the material covered in the course (be wary but have fun):

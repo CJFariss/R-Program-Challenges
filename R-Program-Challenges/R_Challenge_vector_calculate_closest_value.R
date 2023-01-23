@@ -1,4 +1,4 @@
-## R_Challenge_vector_matrix_array_exploration.R
+## R_Challenge_vector_calculate_closest_value.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -26,29 +26,17 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge:
+## Steps for the Challenge
 ##
-## (1a) Create a numeric vector of any n size.
-## (1b) Determine the length of the vector, save this value as an object.
-## (1c) How many coordinates in the vector are even? Save this value as an object.
+## (1) Create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to 5 (i.e., 2 < n <= 5).
 ##
-## (2a) Create a numeric matrix of equal size which is square (i.e., m==n).
-## (2b) Determine the size of the dimensions of the matrix, save these values as a single object.
-## (2c) How many coordinates in the matrix are made of only even numbers? Save this value as an object.
+## (2a) Select an arbitrary value. What is the distance between this value and the numeric values in the vector?
+## (2b) Select another arbitrary value What is the distance between this value and the numeric values in the vector? Is it close or further away from the values in the vector than the arbitray value selected in step (2a)?
 ##
-## (3a) Create a numeric array of 3 dimensions of equal size.
-## (3b) Determine the size of the dimensions of the array, save these values as a single object.
-## (3c) How many coordinates in the array are made of only even numbers? Save this value as an object?
-##
-## (4a) Write a function to repeat the process described in (3).
-## (4b) Write a function to repeat the above process for an array of a pre-determined dimension of equal size (hint: start with a pre-defined number of dimensions).
-##
-## (5a) Calculate the relationship between the size of the vector/matrix/array from above and compare it to the number of coordinates that have only positive values.
-## (5b) How does this value change as a function of the dimensions of the array? Does this value change when the size of the vector/matrix/array changes?
-##
-## Note: this next part is difficult in R but less so in some other programming languages.
-##
-## (6) Can this process be extended to an array of arbitrary size? Can you write a function to complete this task?
+## (3) What is the closest number to the values in the vector created in step (1)?
 ##
 ##########################################################################
+
+
+
 

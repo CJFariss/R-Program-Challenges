@@ -1,4 +1,4 @@
-## R_Challenge_vector_closest_value.R
+## R_Challenge_vector_matrix_array_coordinate_distances.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -28,15 +28,19 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to 5 (i.e., 2 < n <= 5).
+## (1) Generate a 1-D vector x of arbitrary length.
 ##
-## (2a) Select an arbitrary value. What is the distance between this value and the numeric values in the vector?
-## (2b) Select another arbitrary value What is the distance between this value and the numeric values in the vector? Is it close or further away from the values in the vector than the arbitray value selected in step (2a)?
+## (2) Choose a position in the vector (coordinate).
 ##
-## (3) What is the closest number to the values in the vector created in step (1)?
+## (3) Generate a new vector with the distances from the chosen position in the vector to every other element in the vector. The distance formula we will use is sqrt((position_vector - coordinate)^2).
+##
+## (4) Repeat steps 1-3 for a 2-D matrix xy with dimensions x and y. The distance between two cells in a matrix with coordinates (x1, y1) and (x2, y2) is the square root of the squared distances (hint use the sqrt() function): sqrt((x1 - x2)^2 + (y1 - y2)^2).
+##
+## (5) Generalize (4) for an array of 3 dimensions. The distance between two cells in a 3-D array with coordinates (x1, y1, z1) and (x2, y2, z2) is the square root of the squared distances: sqrt((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2).
+##
+## (6) Write a function for (1), (4), and (5).
+##
+## (7) Write a function to generalize this process for an array of any dimensions.
 ##
 ##########################################################################
-
-
-
 

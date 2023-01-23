@@ -1,4 +1,4 @@
-## R_Challenge_vector_matrix_array_distances.R
+## R_Challenge_vector_matrix_array_even_coordinates.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
@@ -26,21 +26,29 @@
 ##
 ##########################################################################
 ##
-## Steps for the Challenge
+## Steps for the Challenge:
 ##
-## (1) Generate a 1-D vector x of arbitrary length.
+## (1a) Create a numeric vector of any n size.
+## (1b) Determine the length of the vector, save this value as an object.
+## (1c) How many coordinates in the vector are even? Save this value as an object.
 ##
-## (2) Choose a position in the vector (coordinate).
+## (2a) Create a numeric matrix of equal size which is square (i.e., m==n).
+## (2b) Determine the size of the dimensions of the matrix, save these values as a single object.
+## (2c) How many coordinates in the matrix are made of only even numbers? Save this value as an object.
 ##
-## (3) Generate a new vector with the distances from the chosen position in the vector to every other element in the vector. The distance formula we will use is sqrt((position_vector - coordinate)^2).
+## (3a) Create a numeric array of 3 dimensions of equal size.
+## (3b) Determine the size of the dimensions of the array, save these values as a single object.
+## (3c) How many coordinates in the array are made of only even numbers? Save this value as an object?
 ##
-## (4) Repeat steps 1-3 for a 2-D matrix xy with dimensions x and y. The distance between two cells in a matrix with coordinates (x1, y1) and (x2, y2) is the square root of the squared distances (hint use the sqrt() function): sqrt((x1 - x2)^2 + (y1 - y2)^2).
+## (4a) Write a function to repeat the process described in (3).
+## (4b) Write a function to repeat the above process for an array of a pre-determined dimension of equal size (hint: start with a pre-defined number of dimensions).
 ##
-## (5) Generalize (4) for an array of 3 dimensions. The distance between two cells in a 3-D array with coordinates (x1, y1, z1) and (x2, y2, z2) is the square root of the squared distances: sqrt((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2).
+## (5a) Calculate the relationship between the size of the vector/matrix/array from above and compare it to the number of coordinates that have only positive values.
+## (5b) How does this value change as a function of the dimensions of the array? Does this value change when the size of the vector/matrix/array changes?
 ##
-## (6) Write a function for (1), (4), and (5).
+## Note: this next part is difficult in R but less so in some other programming languages.
 ##
-## (7) Write a function to generalize this process for an array of any dimensions.
+## (6) Can this process be extended to an array of arbitrary size? Can you write a function to complete this task?
 ##
 ##########################################################################
 
