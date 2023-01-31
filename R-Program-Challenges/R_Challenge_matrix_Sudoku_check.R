@@ -43,15 +43,21 @@
 ## Steps for the Challenge:
 ##
 ## (1) Create a Sudoku matrix (you can use the example above to start). There are many websites with completed puzzles that you can choose from.
+##
 ## (2) Write a program to check if a solved Sudoku puzzle like the example above is complete. Describe each test you program with detailed comments. Recall that every row, every column, and each 3x3 submatrix contain all of the digits in the seqeuence from 1 to 9 by 1.
+##
 ## (3) Show that the program can identify incorrectly solved puzzles.
+##
 ## (4) Write a function to complete the program in (2) - (3).
 ##
 ## Warning: The rest of these steps are very challenging:
 ##
 ## (5) Remove 1 value from the Sudoku matrix. Write a program to select the appropriate value for the missing value.
+##
 ## (6) Remove 2 values from the Sudoku matrix. Write a program to select the appropriate value for the missing value.
+##
 ## (7) Remove 3 values from the Sudoku matrix. Write a program to select the appropriate value for the missing value.
+##
 ## (8) How many values from the Sudoku matrix can you remove and still solve the Sudoku puzzle?
 ##
 ## Warning: The most difficult part of the challenge (even more difficult than 5-8):
