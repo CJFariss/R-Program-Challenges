@@ -33,7 +33,7 @@
 ##
 ## (2) Rotate the matrix 90 degrees
 ##
-## (3) Flip the matrix over the 45 degree line or main diagnol of the matrix.
+## (3) Flip the matrix over the 45 degree line or main diagnol of the matrix. Note: the main diagnol are the positions in the matrix at which the row coordinate equals the column coordinate. 
 ##
 ## (4) Write a function to complete step (2) and step (3).
 ##
