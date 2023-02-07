@@ -76,6 +76,13 @@ Gamma_function <- function(n){
 }
 Gamma_function(4)
 
+## or you can use the built in gamma() function in R
+gamma(4)
+
+##
+Gamma_function(4.5)
+gamma(4.5)
+
 ##########################################################################
 
 
