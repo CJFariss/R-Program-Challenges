@@ -27,7 +27,7 @@
 ##
 ##########################################################################
 ##
-## In this challenge you will explore a matrix, keeping track of the value of an object and the coordinate within the matrix in which it resides. All of the earlier program challenges have provided you with the tools necessary to complete this challenge.
+## In this challenge you will explore a matrix, keeping track of the value of an object and the coordinate within the matrix at which it resides. All of the earlier program challenges have provided you with the tools necessary to complete this challenge.
 ##
 ##########################################################################
 ##
@@ -40,23 +40,41 @@
 ## Steps for the Challenge
 ##
 ## (1) Create a dungeon (a matrix) using the following line of R code (which is also below): dungeon <- matrix(sample(-10:10,size=100,replace=T), nrow=10, ncol=10) ## you can change this later to modify the program challenge if you like.
-## (2) The explorer starts at coordinate [1,1]; the explorer exits at coordinate [10,10] (we will adjust the starting and ending coordinates later)
+##
+## (2) The explorer starts at coordinate [1,1]; the explorer exits at coordinate [10,10] (we will adjust the starting and ending coordinates later).
+##
 ## (3a) Define the explorer as an object.
-## (3b) The explorer is given an initial endowment of health for some value from 1 to 10.
+## (3b) The explorer is given an initial endowment of health for some value from 1 to 10. You can set this to an arbitrary value or use the sample() function to randoml select the value.
+##
 ## (4) The explorer can only move right or down (we will change this later). For example, the explorer can move from the first coordinate [1,1] to coordinate [2,1] or coordinate [1,2].
-## (5) Add the value in the new coordinate to the explorer's endowment of health/treasure (value). Negative numbers reduce this value (The explorer can accumulate more than 10 points of health/treasure).
+##
+## (5) Add the value in the new coordinate to the explorer's endowment of health/treasure (value). Negative numbers reduce this value but the explorer can't go below 0 health/treasure. But the explorer can accumulate more than 10 points of health/treasure.
+##
 ## (6) Find a path through the dungeon from the starting coordinate to the ending coordinate so that the health/treasure of the explorer never reaches 0.
-## (7) Calculate the unit length of the path through the dungeon.
+##
+## (7) Calculate the unit length of the path through the dungeon. The unit length is calculated as the number of positions in the matrix that the explorer visits.
+##
 ## (8) Calculate the remaining health/treasure of the explorer. Is this value greater than the initial health endowment?
+##
 ## (9) Calculate the total number of successful paths through the dungeon.
-## (10) Which path produces the best outcome?
-## (11) Change the program so that health and treasure separate quantities so that your explorer must manage both the health remaining and treasure accumulated.
+##
+## (10) Which path through the dungeon produces the best outcome?
+##
+## (11) Change the program so that health and treasure are separate quantities so that your explorer must manage both the health remaining and treasure accumulated (this is a two variable optimization problem).
+## 
 ## (12) Change the program so that the explorer can only see 1 or 2 positions from the current location. Allow the explorer to move backwards (left or up) after moving into a new position.
-## (13) Alter the structure of the dungeon so that it has a first floor and second floor; i.e., add a second layer to the matrix so that it has 3 dimensions instead of 2. Now the explorer can move in 3 dimensions instead of 2.
-## (14) So far, moving through the dungeon requires a deterministic assessment by the explorer. Add a probability to the health factor in each room (i.e., a probability of receiving the positive/negative value). You can pick a single probability for each room or select from a beta distribution using the rbeta() function. If you allow the explorer to move back to an original position, the probability of receiving the health change can remain the same or you can alter it based on some rule of your choice.
+##
+## (13a) Alter the structure of the dungeon so that it has a first floor and second floor; i.e., add a second layer to the matrix so that it has 3 dimensions instead of 2. Now the explorer can move in 3 dimensions instead of 2.
+## (13b) Add more layers so the dungeon is a 10 by 10 by 10 cube.
+##
+## (14) So far, moving through the dungeon requires a deterministic assessment by the explorer. Add a probability to the health factor in each room (i.e., a probability of receiving the positive/negative value). You can pick a single probability for each room or select from a beta distribution using the rbeta() or the sample() function. If you allow the explorer to move back to an original position, the probability of receiving the health change can remain the same or you can alter it based on some rule of your choice.
+##
 ## (15a) How long can your explorer survive the dungeon (how many steps can they take?)?
 ## (15b) What is the probability that explorer can survive the exploration of the entire dungeon?
-## (16) ... I'll add more steps soon ...
+##
+## (16) Randomly make some positions in the matrix blocked or non-traversable. 
+##
+## (17) ... I'll add more steps soon ...
 ##
 ##########################################################################
 
