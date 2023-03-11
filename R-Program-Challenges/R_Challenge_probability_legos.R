@@ -41,10 +41,10 @@ single_lego_brick_sample_space
 ##
 ## (4) Define a larger sample space (>2) using some of the lego blocks in class (or see the photos of legos on canvas)
 ##
-## So far each of the the sample spaces we have considered have consisted of unions of elements. That is, there are not overlapping elements in the sets that we have defined probablity
+## So far each of the the sample spaces we have considered have consisted of unions of elements. That is, there are not overlapping elements in the sets that we have defined probability
 ##
 ## (5) Using the legos, define a set with overlap, an intersection of events (i.e., stack two lego blocks together, the overlap is where the legos connect).
 ##
-## (6) The intersection of events allows us to consider conditional probability. What is the probaility that a red brick is choosen if a yellow brick is also choosen? (think of the red block on top of the yellow block when considering the overlap/intersection.
+## (6) The intersection of events allows us to consider conditional probability. What is the probaility that a red brick is chosen if a yellow brick is also chosen? (think of the red block on top of the yellow block when considering the overlap/intersection.
 ##
 ##########################################################################
