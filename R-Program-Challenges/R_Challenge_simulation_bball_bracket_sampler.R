@@ -105,9 +105,9 @@ rbracket(bracket=c("team_1", "team_2", "team_3", "team_4", "team_5", "team_6", "
 
 
 ## define brackets Men's Tournament
-bracket_SOUTH_M <- c("Alabama", "Arizona", "Baylor", "Virginia", "SDSU", "Creighton", "Missouri", "Maryland", "West Virginia", "Utah State", "N.C. State", "Charleston", "Furman", "UCSB", "Princeton", "TAMCC/SEMO")
+bracket_SOUTH_M <- c("Alabama", "Arizona", "Baylor", "Virginia", "SDSU", "Creighton", "Missouri", "Maryland", "West Virginia", "Utah State", "N.C. State", "Charleston", "Furman", "UCSB", "Princeton", "Texas A&M - Corpus Christy")
 
-bracket_MIDWEST_M <- c("Houston", "Texas", "Xavier", "Indiana", "Miami (FL)", "Iowa St.", "Texas A&M", "Iowa", "Auburn", "Penn State", "MissSt/Pitt", "Drake", "Kent State", "Kennesaw State", "Colgate", "North. Kentucky")
+bracket_MIDWEST_M <- c("Houston", "Texas", "Xavier", "Indiana", "Miami (FL)", "Iowa St.", "Texas A&M", "Iowa", "Auburn", "Penn State", "Pittsburgh", "Drake", "Kent State", "Kennesaw State", "Colgate", "North. Kentucky")
 
 bracket_EAST_M <- c("Purdue", "Marquette", "Kansas State", "Tennessee", "Duke", "Kentucky", "Michigan State", "Memphis", "Florida Atlantic", "USC", "Providence", "Oral Roberts", "Louisiana", "Montana State", "Vermont", "FDU/TexSou")
 
@@ -119,7 +119,6 @@ bracket_MIDWEST_M
 bracket_EAST_M
 bracket_WEST_M
 
-set.seed(1)
 
 ## take random draw from the bracket function
 rbracket_SOUTH_M <- rbracket(bracket_SOUTH_M)
