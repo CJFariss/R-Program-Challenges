@@ -31,11 +31,19 @@
 ## (1a) This challenge begins with a premade function that generates randomly created tournament brackets 
 ## (1b) The function is used to randomly create College Basketball tournament brackets for the 2023 Men's College Basketball tournament and the 2023 Women's College Basketball tournament.
 ##
-## (2) Alter the function to take user-specified probability arguments 
+## (2) Alter the function to take user-specified probability arguments. 
 ##
 ## (3) Use one of the datasets below to calculate the observed probability of each seed (or team) winning a game:
 ## https://www.kaggle.com/datasets/andrewsundberg/college-basketball-dataset
 ## https://data.world/michaelaroy/ncaa-tournament-results
+##
+## (4) Using a for loop: 
+## (4a) Simulate the probability distribution for a team of your choice making it to the final four.
+## (4b) Simulate the probability distribution for a team of your choice winning the tournament.
+## (4c) Simulate the probability of an upset (you'll need to define what an "upset" is).
+## (4d) Simulate the probability of any upset-team making it to the final four.
+## (4e) Simulate the probability of any upset-team winning the tournament.
+## (4f) Simulate the probability of any other event outcome of your choice (define what the event is).
 ##
 ##########################################################################
 
