@@ -28,7 +28,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1a) This challenge begins with a premade function that generates randomly created tournament brackets 
+## (1a) This challenge begins with a pre-made function that generates randomly created tournament brackets 
 ## (1b) The function is used to randomly create College Basketball tournament brackets for the 2023 Men's College Basketball tournament and the 2023 Women's College Basketball tournament.
 ##
 ## (2) Alter the function to take user-specified probability arguments. 
@@ -53,8 +53,8 @@
 rbracket <- function(bracket = c("team_1", "team_2", "team_3", "team_4", "team_5", "team_6", "team_7", "team_8", "team_9", "team_10", "team_11", "team_12", "team_13", "team_14", "team_15", "team_16")){
   
   bracket_coord <- 1:length(bracket)
+
   ## round 1
-  
   rnd1_coord <- c()
   rnd1_coord[1] <- sample(bracket_coord, size=1, prob=c(16/17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/17))
   rnd1_coord[2] <- sample(bracket_coord, size=1, prob=c(0,15/17,0,0,0,0,0,0,0,0,0,0,0,0,2/17,0))
