@@ -147,10 +147,10 @@ rfinal_four(final_four=c(rbracket_SOUTH_M[[4]], rbracket_MIDWEST_M[[4]],  rbrack
 
 
 ## define brackets for Women's Tournament 
-bracket_GREENVILLE1 <- c("South Carolina", "Maryland", "Notre Dame", "UCLA", "Oklahoma", "Creighton", "Arizona", "South Florida", "Marquette", "West Virginia", "ILL/MSST", "Portland", "Sacramento State", "Southern Utah", "Holy Cross", "Norfolk State")
+bracket_GREENVILLE1 <- c("South Carolina", "Maryland", "Notre Dame", "UCLA", "Oklahoma", "Creighton", "Arizona", "South Florida", "Marquette", "West Virginia", "Mississippi State", "Portland", "Sacramento State", "Southern Utah", "Holy Cross", "Norfolk State")
 bracket_GREENVILLE2 <- c("Indiana", "Utah", "LSU", "Villanova", "Washington State", "Michigan", "NC State", "Oklahoma State", "Miami", "Princeton", "UNLV", "FGCU", "Cleveland State", "Hawai'i", "Gardner-Webb", "TNTC/MON")
 bracket_SEATTLE4 <- c("Stanford", "Iowa", "Duke", "Texas", "Louisville", "Colorado", "Florida State", "Ole Miss", "Gonzaga", "Georgia", "MTSU", "Drake", "East Carolina", "Iona", "SE Louisiana", "SOU/SHU")
-bracket_SEATTLE3 <- c("Virginia Tech", "UConn", "Ohio State", "Tennessee", "Iowa State", "North Carolina", "Baylor", "USC", "S Dakota State", "Alabama", "PUR/SJU", "Toledo", "Saint Louis", "James Madison", "Vermont", "Chattanooga")
+bracket_SEATTLE3 <- c("Virginia Tech", "UConn", "Ohio State", "Tennessee", "Iowa State", "North Carolina", "Baylor", "USC", "S Dakota State", "Alabama", "Saint John's", "Toledo", "Saint Louis", "James Madison", "Vermont", "Chattanooga")
 
 
 ## take random draw from the bracket function
