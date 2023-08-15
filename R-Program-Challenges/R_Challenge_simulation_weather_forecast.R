@@ -6,9 +6,9 @@
 ## University of Michigan, Winter 2023, Winter 2022, Winter 2021, Winter 2020
 ##
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
-## University of Essex Summer School 2022, 2021, 2020
+## University of Essex Summer School 2023, 2022, 2021, 2020
 ##
-## Date: 2023-01-20
+## Date: 2023-08-10
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -33,17 +33,17 @@
 ## (1) create a vector of weather types; "sunny", "partly_cloudy", "cloudy", "rain", "snow", "thunder storm" (hint: see the categorical weather dice in class)
 ## (2) use the sample function to pick one of the weather types (1-day forecast)
 ## (3) forecast the weather for the next 7 days (hint: more sampling)
-## (4) repeat (2), this time make the 1-day forecast based on the weather today (hint: inspect the other available arguments in the sample() function to acieve this)
+## (4) repeat (2), this time make the 1-day forecast based on the weather today (hint: inspect the other available arguments in the sample() function to achieve this)
 ## (5) repeat (3), this time make each day of the 7-day forecast based on the previous day weather type
 ##
 ## Warning: The rest of these steps are very challenging:
 ##
-## (6a) What is the probability of each weather type occuring for a simulated set of 2-week periods with the same starting condition?
-## (6b) What is the probability of each weather type occuring for a simulated set of 3-week periods with the same starting condition?
-## (6c) What is the probability of each weather type occuring for a simulated set of n-week periods with the same starting condition?
-## (6d) How many weeks until the probabilites converge? Or put another way, how manty weeks until you can no longer determine the starting condition?
+## (6a) What is the probability of each weather type occurring for a simulated set of 2-week periods with the same starting condition?
+## (6b) What is the probability of each weather type occurring for a simulated set of 3-week periods with the same starting condition?
+## (6c) What is the probability of each weather type occurring for a simulated set of n-week periods with the same starting condition?
+## (6d) How many weeks until the probabilities converge? Or put another way, how many weeks until you can no longer determine the starting condition?
 ##
-## Congragulations, you have programmed a Markov Chain.
+## Congratulations, you have programmed a Markov Chain.
 ##
 ## The next steps will make use of tools we will begin to consider in the second half of the class but you have the skills necessary to begin thinking through these steps already
 ##
@@ -56,4 +56,5 @@
 ##
 ##########################################################################
 
+weather_dice <- c("sunny", "partly_cloudy", "cloudy", "rain", "snow", "thunder storm")
 

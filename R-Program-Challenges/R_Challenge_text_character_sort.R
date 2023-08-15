@@ -29,7 +29,7 @@
 ## Steps for the Challenge
 ##
 ## (1) generate a character string
-## (2) count the number of uniques characters in the string
+## (2) count the number of unique characters in the string
 ## (3) sort the character string based on frequency of each of the characters
 ## (4) create a program that generalizes (1) and (3) to work on a vector of character strings
 ## (5) create a new string of characters that are removed from the strings before the sort
