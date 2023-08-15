@@ -3,12 +3,12 @@
 ## INSTRUCTOR: Christopher Fariss
 ##
 ## COURSE NAME: Data Science for International Studies (DSIS)
-## University of Michigan, Winter 2023, Winter 2022, Winter 2021, Winter 2020
+## University of Michigan, Fall 2023, Winter 2023, Winter 2022, Winter 2021, Winter 2020
 ##
-## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (2F)
+## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (3B, 2F)
 ## University of Essex Summer School 2023, 2022, 2021, 2020
 ##
-## Date: 2023-08-10
+## Date: 2023-08-15
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
