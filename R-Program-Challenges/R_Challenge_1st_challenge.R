@@ -28,11 +28,15 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Create a numeric vector of arbitrary length.
+## (1a) Create a numeric vector of arbitrary length. An arbitray choice is any number you want to select.
 ##
-## (2) Count the number of elements in the vector.
+## (1b) Count the number of elements in the vector.
 ##
-## (3) Select any integer, are any of the elements in the vector the same value as the selected integer?
+## (2a) Create a numeric vector of random length. A random choice is made using a random number generator like the D20 dice you have or the sample() function.
+##
+## (2b) Count the number of elements in the vector.
+##
+## (3) Select any integer, are any of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
 ##
 ##########################################################################
 
