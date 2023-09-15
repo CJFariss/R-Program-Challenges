@@ -28,7 +28,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1a) Create a numeric vector of arbitrary length. An arbitray choice is any number you want to select.
+## (1a) Create a numeric vector of arbitrary length. An arbitrary choice is a selection of any number you want to select.
 ##
 ## (1b) Count the number of elements in the vector.
 ##
