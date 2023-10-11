@@ -29,7 +29,7 @@
 ## Steps for the Challenge:
 ##
 ## (1) Write a function that simulates the role of one or more dice using the sample() function
-## (2) The function should allow for two arguments: dice_type, dice_number
+## (2) The function should allow for ATLEAST two arguments: dice_type, dice_number
 ##
 ## ... fill in more steps here as in-class groups ...
 ##
