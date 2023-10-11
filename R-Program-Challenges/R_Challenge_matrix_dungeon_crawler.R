@@ -44,7 +44,7 @@
 ## (2) The explorer starts at coordinate [1,1]; the explorer exits at coordinate [10,10] (we will adjust the starting and ending coordinates later).
 ##
 ## (3a) Define the explorer as an object.
-## (3b) The explorer is given an initial endowment of health for some value from 1 to 10. You can set this to an arbitrary value or use the sample() function to randoml select the value.
+## (3b) The explorer is given an initial endowment of health for some value from 1 to 10. You can set this to an arbitrary value or use the sample() function to randomly select the value.
 ##
 ## (4) The explorer can only move right or down (we will change this later). For example, the explorer can move from the first coordinate [1,1] to coordinate [2,1] or coordinate [1,2].
 ##
