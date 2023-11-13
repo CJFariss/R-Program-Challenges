@@ -58,3 +58,10 @@
 
 weather_dice <- c("sunny", "partly_cloudy", "cloudy", "rain", "snow", "thunder storm")
 
+
+
+
+
+
+
+
