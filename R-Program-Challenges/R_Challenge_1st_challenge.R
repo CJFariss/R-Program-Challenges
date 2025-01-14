@@ -37,7 +37,7 @@
 ##
 ## (2b) Count the number of elements in the vector.
 ##
-## (3) Select any integer, are any of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
+## (3) Select any integer (arbitrary choice), are any of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
 ##
 ##########################################################################
 
