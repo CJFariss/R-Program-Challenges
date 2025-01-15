@@ -43,9 +43,11 @@
 ##
 ## (7) Write a program that generalizes this process for any number of max values up to the length of the vector.
 ##
-## (8) Write a function using the program writtin in step (7). "Wrap" the program from step (7) in a function.
+## (8) Write a function using the program written in step (7). "Wrap" the program from step (7) in a function.
 ##
-## (9) Think about the output of the function in (8), now write a new function that generalizes this process for two vectors of the same length that preserves the order of the first vector relative to the second (hint: you'll look for the max values of the second vector for each group of equal values from the first vector).
+## warning: it's going to be more challenging below.
+##
+## (9) Think about the output of the function in (8), now write a new program and then a new function that generalizes this process for two vectors of the same length that preserves the order of the first vector relative to the second (hint: you'll look for the max values of the second vector for each group of equal values from the first vector).
 ##
 ## (10) generalize the function for step (8) for any number of columns (or the total number of columns that are of equal length)
 ##
