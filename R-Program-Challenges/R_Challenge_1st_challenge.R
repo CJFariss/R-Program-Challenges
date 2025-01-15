@@ -31,11 +31,11 @@
 ##
 ## (1a) Write a program to create a numeric vector of arbitrary length. An arbitrary choice is a selection of any number you want to select.
 ##
-## (1b) Count the number of elements in the vector.
+## (1b) What is the count or the total number of elements in the vector? Hint: print the length() of the vector in the console. 
 ##
 ## (2a) Create a numeric vector of random length. A random choice is made using a random number generator like the D20 dice you have or the sample() function.
 ##
-## (2b) Count the number of elements in the vector. Hint: print the length() of the vector in the console.
+## (2b) Count the total number of elements in the vector.
 ##
 ## (3) Select any integer (arbitrary choice) and create a new object. Now, answer the following logical question: are any of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
 ##
