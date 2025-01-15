@@ -28,8 +28,8 @@
 ##########################################################################
 ##
 ## Steps for the Challenge
-##
-## (1) Create a numeric vector of arbitrary length.
+## 
+## (1) Write a program to create a numeric vector of arbitrary length.
 ##
 ## (2) Determine the maximum value in the vector.
 ##
