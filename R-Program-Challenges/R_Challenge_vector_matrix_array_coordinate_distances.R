@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Generate a 1-D vector (1-dimensional) object of arbitrary length.
+## (1) Write a program to generate a 1-D vector (1-dimensional) object of arbitrary length.
 ##
 ## (2) Choose a position in the vector (coordinate).
 ##
