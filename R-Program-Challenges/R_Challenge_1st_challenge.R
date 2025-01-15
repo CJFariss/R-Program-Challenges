@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1a) Create a numeric vector of arbitrary length. An arbitrary choice is a selection of any number you want to select.
+## (1a) Write a program to create a numeric vector of arbitrary length. An arbitrary choice is a selection of any number you want to select.
 ##
 ## (1b) Count the number of elements in the vector.
 ##
@@ -39,5 +39,9 @@
 ##
 ## (3) Select any integer (arbitrary choice), are any of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
 ##
+## warning: it's going to be even more challenging below.
+##
+## (4) Write a function using the program written in step (3). Hint: "Wrap" the program from step (3) in a function.
+## 
 ##########################################################################
 
