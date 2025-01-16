@@ -31,7 +31,7 @@
 ##
 ## (1) Go to ourworldindata.org
 ## (2) Select any one data visualization to replicate.
-## (3) Reproduce the data visualization using R.
+## (3) Write a program to reproduce the data visualization using R.
 ##
 ##########################################################################
 
