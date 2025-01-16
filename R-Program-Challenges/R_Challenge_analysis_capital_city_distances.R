@@ -29,7 +29,7 @@
 ##
 ## Traveling Diplomat problem (also more commonly known as the Traveling Salesman Problem (TSP)): Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?
 ##
-## Note that this is an NP problem (Non-Deterministic Polynomial Time Probem): https://www.youtube.com/watch?v=YX40hbAHx3s. The Sukodu solver problem is also NP.
+## Note that this is an NP problem (Non-Deterministic Polynomial Time Problem): https://www.youtube.com/watch?v=YX40hbAHx3s. The Sukodu solver problem is also NP.
 ##
 ## I don't expect you to solve this one. But it is fun to think about.
 ##
@@ -39,7 +39,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Use the function defined for you below to calculate all of the distances from every capital to every other capital.
+## (1) Write a program that uses the function defined for you below to calculate all of the distances from every capital to every other capital.
 ##
 ## (2) Summarize these distances for each state and for all the states (use some graph functions like boxplot(), plot(), or barplot().
 ##
