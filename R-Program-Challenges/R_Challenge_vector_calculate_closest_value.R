@@ -29,12 +29,14 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to 5 (i.e., 2 < n <= 5).
+## (1) Write a program to create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to a small number, say 5 (i.e., 2 < n <= 5).
 ##
 ## (2a) Select an arbitrary value. What is the distance between this value and the numeric values in the vector?
 ## (2b) Select another arbitrary value What is the distance between this value and the numeric values in the vector? Is it close or further away from the values in the vector than the arbitray value selected in step (2a)?
 ##
 ## (3) What is the closest number to the values in the vector created in step (1)?
+##
+## (4) Write a function to complete steps 1-3.
 ##
 ##########################################################################
 
