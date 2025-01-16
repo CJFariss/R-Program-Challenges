@@ -28,7 +28,7 @@
 ##
 ## Steps for the Challenge:
 ##
-## (1a) Write a program to create a numeric vector of any n size (you choose n arbitarily or randomly).
+## (1a) Write a program to create a numeric vector of any n size (you choose n arbitrarily or randomly).
 ## (1b) Determine the length of the vector, save this value as an object.
 ## (1c) How many coordinates in the vector are even? Save this value as an object.
 ##
