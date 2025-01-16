@@ -31,7 +31,7 @@
 ##
 ## (1) Go to flowingdata.com
 ## (2) Explore the blog posts and select one data visualization to replicate.
-## (3) Reproduce the data visualization using R (note that not all of the visualizations at flowingdata.com are reproducible in R).
+## (3) Write a program that reproduces the data visualization using R (note that not all of the visualizations at flowingdata.com are reproducible in R).
 ## 
 ## Note: You can reproduce xkcd style graphs using the xkcd library: https://cran.r-project.org/web/packages/xkcd/vignettes/xkcd-intro.pdf
 ##
