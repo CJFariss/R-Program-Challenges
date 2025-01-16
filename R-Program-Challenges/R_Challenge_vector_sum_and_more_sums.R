@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1a) Create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to 5 (i.e., 2 < n <= 5).
+## (1a) Write a program to create a numeric vector (let's call the object we create x or vec) of a length greater than 2 and less than or equal to 5 (i.e., 2 < n <= 5).
 ## (1b) Fill the vector with random numeric variables that are integers (not floating-point numbers so no decimal points).
 ## (1c) Select the integers arbitrarily (programmer's choice) or use the sample() function to randomly select numbers (probabilistic choice or nature's choice).
 ## (1d) Are any of the numeric values in the vector equal to the coordinate position at which they reside in the vector? If so how many?
