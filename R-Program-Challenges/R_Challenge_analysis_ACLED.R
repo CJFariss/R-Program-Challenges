@@ -33,7 +33,7 @@
 ## Note that because of changes to the ACLED website, I've now provided 3 of the curated datasets from ACLED in the Canvas course website.
 ## You're welcome to register at ACLED and download additional datasets if you are interested.
 ##
-## (1) Load your ACLED dataset into R.
+## (1) Write a program to load your ACLED dataset into R.
 ##
 ## (2) Inspect and explore the ACLED data.
 ##
