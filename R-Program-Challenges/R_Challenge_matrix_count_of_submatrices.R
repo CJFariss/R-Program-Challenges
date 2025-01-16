@@ -29,10 +29,18 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Generate a m * n matrix of 1s and 0s
-## (2) Determine how many square-submatrices have all 1s. The square submatrices can be as small as 1-by-1
+## (1) Generate a m * n matrix of 1s and 0s, where m=n.
+##
+## (2) Determine how many square-submatrices have all 1s. The square submatrices can be as small as 1-by-1. These are symmetric matrices that occupyy contiguous coordinates inside the matrix). Some examples: A 2-by-2 submatrix will have 5 submatrices (four: 1-by-1 matrices and one: 2-by-2 matrix). A 3-by-3 matrix will have 14 submatrices (nine: 1-by-1 matrices; four: 2-by-2 matrix; and one 3-by-3 matrix)
+##
 ## (3) Determine the count of each square submatrices of different size.
-## (4) Write a function to complete these programming tasks.
+##
+## (4)
+##
+## (5) Write a function to complete these programming tasks.
+##
+## Warning: this step is harder until we get to the data visualization unit in week 13.
+##
 ## (5) Write a program to graphically display the results from (2) and (3).
 ##
 ##########################################################################
