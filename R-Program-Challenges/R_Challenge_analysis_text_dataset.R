@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Load the text dataset into R (it is called AIR-2022-text-sections-themes.csv this semester).
+## (1) Write a program to load the text dataset into R (it is called AIR-2022-text-sections-themes.csv this semester).
 ##
 ## (2) Inspect and explore the text data.
 ##
@@ -48,6 +48,8 @@
 ## (5) Turn the event description in the ACLED dataset into a Document-by-Term Matrix (DTM). For the DTM, we let i = 1, ..., N index documents and w = 1, ..., W index the unique terms in the collection of documents. For each of the i documents, we determine the frequency of each of the unique $w$ words. Each of the D_iw entries in a DTM represents  the number of times the w-th word appears in the i-th document.
 ##
 ## (6) Which words are most commonly associated with the categorical variable you selected for the entire dataset?
+##
+## This next step requires the tools from the data visualization code.
 ##
 ## (7) Create a barplot of the most frequent words by categorical variable for the entire dataset
 ##
