@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Select a single number (arbitrarily or randomly). We will call this the "target" variable later on.
+## (1) Write a program to select a single number (arbitrarily or randomly). We will call this the "target" variable later on.
 ## (2) Create a sequence of numeric values (numbers) starting from 0 to the number selected in step (1). Set the length of sequence to 10 or 100 (start with 10).
 ## (3) Create a new object which is the pairwise produce of each value in the sequence. Hint: just multipy the sequence object created in step (2) by itself.
 ##
@@ -46,7 +46,7 @@
 ##
 ## (7) Write a function to complete this process.
 ##
-## Congragulations, you have iteratively calculated the sqrt of a number without using the built in sqrt() function.
+## Congratulations, you have iteratively calculated the sqrt of a number without using the built in sqrt() function.
 ##
 ## (8) Compare the the output of your function from line (7) to the sqrt() function. Which value is more precises? Can you increase the precision of the function from step (7)? 
 ##
