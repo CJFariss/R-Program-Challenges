@@ -37,11 +37,13 @@
 ##
 ## (2b) Count the total number of elements in the vector.
 ##
-## (3) Select any integer (arbitrary choice) and create a new object. Now, answer the following logical question: are any of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
+## (3) Select any integer (arbitrary choice) and create a new object. Now, answer the following logical question: are any() of the elements in one of the vectors created in step (1) or step (2) the same value as the selected integer?
 ##
 ## warning: it's going to be even more challenging below.
 ##
 ## (4) Write a function using the program written in step (3). Hint: "Wrap" the program from step (3) in a function.
 ## 
 ##########################################################################
+
+
 
