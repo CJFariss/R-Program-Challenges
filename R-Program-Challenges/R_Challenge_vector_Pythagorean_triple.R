@@ -37,7 +37,7 @@
 ##
 ## (4) Extend the function created for (3) to complete the programming task for a vector of numbers.
 ##
-## (5) Calculate the distance between values that satisfy the equation in (1) using the vector in (4)
+## (5) Calculate the distance between values that satisfy the equation in (1) using the vector in (4).
 ##
 ##########################################################################
 
