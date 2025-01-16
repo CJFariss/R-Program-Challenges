@@ -31,7 +31,7 @@
 ##
 ## Please note that this challenge gets very challenging, I only expect us to work on steps 1-5 in class. The remaining steps are for fun and for later on but I want you to start thinking about them in the back of your minds now.
 ##
-## (1) create a vector of weather types; "sunny", "partly_cloudy", "cloudy", "rain", "snow", "thunder storm" (hint: see the categorical weather dice in class)
+## (1) Write a program to create a vector of weather types; "sunny", "partly_cloudy", "cloudy", "rain", "snow", "thunder storm" (hint: see the categorical weather dice in class)
 ## (2) use the sample function to pick one of the weather types (1-day forecast)
 ## (3) forecast the weather for the next 7 days (hint: more sampling)
 ## (4) repeat (2), this time make the 1-day forecast based on the weather today (hint: inspect the other available arguments in the sample() function to achieve this)
