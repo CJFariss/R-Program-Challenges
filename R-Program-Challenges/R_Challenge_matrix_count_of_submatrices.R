@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Generate a m * n matrix of 1s and 0s, where m=n.
+## (1) Write a program to generate a m * n matrix of 1s and 0s, where m=n.
 ##
 ## (2) Determine how many square-submatrices have all 1s. The square submatrices can be as small as 1-by-1. These are symmetric matrices that occupy contiguous coordinates inside the matrix). Some examples: A 2-by-2 submatrix will have 5 submatrices (four: 1-by-1 matrices and one: 2-by-2 matrix). A 3-by-3 matrix will have 14 submatrices (nine: 1-by-1 matrices; four: 2-by-2 matrix; and one 3-by-3 matrix)
 ##
