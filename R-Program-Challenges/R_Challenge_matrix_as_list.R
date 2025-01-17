@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Generate an MxN matrix of random size.
+## (1) Write a program to generate an MxN matrix of random size (randomly choose M and N).
 ##
 ## (2) Fill the matrix with the numbers 0 or 1 (or up to any integer value will work too).
 ## (3) Convert the matrix to a list object so that each row in the matrix becomes a numeric vector in the list.
@@ -42,7 +42,7 @@
 ## (6a) Calcuate the difference between the row sums in the matrix and the length of the vectors in the list.
 ## (6b) Calcuate the difference between the matrix row lengths and the list vector lengths.
 ##
-## (7a) Write a simulation that repeadly completes steps (2) - (6) and save the differences in a numeric vector.
+## (7a) Write a simulation that repeatedly completes steps (2) - (6) and save the differences in a numeric vector.
 ## (7b) Create a function to complete (7a).
 ##
 ## (8) Graph and summarize the values in the differences vector created in step (7a).
