@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Read in the MNIST data from the dslabs package.
+## (1) Write a program to read in the MNIST data from the dslabs package.
 ##
 ## (2) Use base R functions to describe the structure and contents of the data frame (what are each of the elements)?
 ##
