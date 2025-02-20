@@ -43,7 +43,7 @@
 ##
 ## (6) Adjust the function so that it can handle vectors that are of odd lengths.
 ##
-## Warning: the next few steps are more challanging: 
+## Warning: the next few steps are more challenging (you can complete the steps below as an additional program challenge): 
 ##
 ## (7) Randomly select a times argument for the function (i.e., the number of times the program shuffles the deck) without using one of the random number generators available in R (hint: try using the Sys.time() function).
 ##
