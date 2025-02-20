@@ -37,7 +37,7 @@
 ## (4) repeat (2), this time make the 1-day forecast based on the weather today (hint: inspect the other available arguments in the sample() function to achieve this)
 ## (5) repeat (3), this time make each day of the 7-day forecast based on the previous day weather type
 ##
-## Warning: The rest of these steps are very challenging:
+## Warning: The rest of these steps are very challenging (you can complete the part 6 steps below as an additional program challenge):
 ##
 ## (6a) What is the probability of each weather type occurring for a simulated set of 2-week periods with the same starting condition?
 ## (6b) What is the probability of each weather type occurring for a simulated set of 3-week periods with the same starting condition?
@@ -48,7 +48,7 @@
 ##
 ## The next steps will make use of tools we will begin to consider in the second half of the class but you have the skills necessary to begin thinking through these steps already
 ##
-## These next steps go beyond the material covered in the course (be wary but have fun):
+## These next steps go beyond the material covered in the course (be wary but have fun). (you can complete the part 7-9 steps below as an additional program challenge):
 ##
 ## (7a) collect weather data for Ann Arbor USA, or Colchester England (or your current location) and compare sets of 7-day weather patterns to our simple forecast model (you can try this now though)
 ## (7b) specifically, calculate the occurrence of each weather type for the 1st through 7th day after each day of observed weather in your city's data. Use the relative frequency of each weather type, conditional on the starting weather type to calculate probabilities (hint: use the table() function to calculate the frequencies for each weather_type_forecast_day)
