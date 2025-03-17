@@ -46,6 +46,6 @@ single_lego_brick_sample_space
 ##
 ## (5) Using the legos, define a set with overlap, an intersection of events (i.e., stack two lego blocks together, the overlap is where the legos connect).
 ##
-## (6) The intersection of events allows us to consider conditional probability. What is the probaility that a red brick is chosen if a yellow brick is also chosen? (think of the red block on top of the yellow block when considering the overlap/intersection.
+## (6) The intersection of events allows us to consider conditional probability. What is the probability that a red brick is chosen if a yellow brick is also chosen? (think of the red block on top of the yellow block when considering the overlap/intersection.
 ##
 ##########################################################################
