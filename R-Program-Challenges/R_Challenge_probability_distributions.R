@@ -69,7 +69,7 @@
 ##
 ## Note: you may need this for the negative binomial function or Student's t function.
 ## Γ() the symbol on the function in some of the distribution function equations is the capital letter gamma.
-## Confusingly, this is not the same as the gamma distribution, which is a continuous probability distribution which also makes use of the Gama function.
+## Confusingly, this is not the same as the gamma distribution, which is a continuous probability distribution which also makes use of the Gamma function.
 ##
 ## Define the Gamma function: \Gamma(n) = (n-1)! or Γ(n) = (n-1)! 
 Gamma_function <- function(n){
