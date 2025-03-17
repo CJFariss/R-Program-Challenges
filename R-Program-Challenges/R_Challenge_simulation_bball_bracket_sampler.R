@@ -30,7 +30,7 @@
 ## Steps for the Challenge
 ##
 ## (1a) This challenge begins with a pre-made function that generates randomly created tournament brackets using a function we are already very familiar with from class: sample().
-## (1b) The function is used to randomly create College Basketball tournament brackets for the 2023 Men's College Basketball tournament and the 2023 Women's College Basketball tournament.
+## (1b) The function is used to randomly create College Basketball tournament brackets for the 2025 Men's College Basketball tournament and the 2025 Women's College Basketball tournament.
 ##
 ## (2) Alter the function to take user-specified probability arguments instead of the ones that are hard-coded into the function.
 ##
@@ -117,13 +117,20 @@ rbracket(bracket=c("team_1", "team_2", "team_3", "team_4", "team_5", "team_6", "
 
 
 ## define brackets Men's Tournament
-bracket_SOUTH_M <- c("Alabama", "Arizona", "Baylor", "Virginia", "SDSU", "Creighton", "Missouri", "Maryland", "West Virginia", "Utah State", "N.C. State", "Charleston", "Furman", "UCSB", "Princeton", "Texas A&M - Corpus Christy")
+## 2025 brackets
+bracket_SOUTH_M <- c("Auburn", "Michigan State", "Iowa State", "Texas A&M", "Michigan", "Ole Miss", "Maruette", "Louisville", "Creighton", "New Mexico", "San Diego State", "UC San Diego", "Yale", "Lipscomb", "Bryant", "Alabama State")
 
-bracket_MIDWEST_M <- c("Houston", "Texas", "Xavier", "Indiana", "Miami (FL)", "Iowa St.", "Texas A&M", "Iowa", "Auburn", "Penn State", "Pittsburgh", "Drake", "Kent State", "Kennesaw State", "Colgate", "North. Kentucky")
+bracket_MIDWEST_M <- c("Houston", "Teneessee", "Kentucky", "Purdue", "Clemson", "Illinois", "UCLA", "Gonzaga", "Georgia", "Utah State", "Texas", "McNeese", "High Point", "Troy", "Wofford", "SIUE")
 
-bracket_EAST_M <- c("Purdue", "Marquette", "Kansas State", "Tennessee", "Duke", "Kentucky", "Michigan State", "Memphis", "Florida Atlantic", "USC", "Providence", "Oral Roberts", "Louisiana", "Montana State", "Vermont", "FDU/TexSou")
+bracket_EAST_M <- c("Duke", "Alabama", "Wisconsin", "Arizona", "Oregon", "BYU", "Saint Mary's State", "Mississippi State", "Bylor", "Vanderbilt", "VCU", "Liberty", "Akron", "Montana", "Robert Morris", "American")
 
-bracket_WEST_M <- c("Kansas", "UCLA", "Gonzaga", "Connecticut", "St. Mary's", "TCU", "Northwestern", "Arkansas", "Illinois", "Boise State", "ASU/Nev", "VCU", "Iona", "Grand Canyon", "N.C. Asheville", "Howard")
+bracket_WEST_M <- c("Florida", "St. John's", "Texas Tech", "Maryland", "Memphis", "Missouri", "Kansas", "Uconn", "Oklahoma", "Arkansas", "Drake", "Colorado State", "Grand Canyon", "UNCW", "Omaha", "Norfolk State")
+
+## 2024 brackets
+#bracket_SOUTH_M <- c("Alabama", "Arizona", "Baylor", "Virginia", "SDSU", "Creighton", "Missouri", "Maryland", "West Virginia", "Utah State", "N.C. State", "Charleston", "Furman", "UCSB", "Princeton", "Texas A&M - Corpus Christy")
+#bracket_MIDWEST_M <- c("Houston", "Texas", "Xavier", "Indiana", "Miami (FL)", "Iowa St.", "Texas A&M", "Iowa", "Auburn", "Penn State", "Pittsburgh", "Drake", "Kent State", "Kennesaw State", "Colgate", "North. Kentucky")
+#bracket_EAST_M <- c("Purdue", "Marquette", "Kansas State", "Tennessee", "Duke", "Kentucky", "Michigan State", "Memphis", "Florida Atlantic", "USC", "Providence", "Oral Roberts", "Louisiana", "Montana State", "Vermont", "FDU/TexSou")
+#bracket_WEST_M <- c("Kansas", "UCLA", "Gonzaga", "Connecticut", "St. Mary's", "TCU", "Northwestern", "Arkansas", "Illinois", "Boise State", "ASU/Nev", "VCU", "Iona", "Grand Canyon", "N.C. Asheville", "Howard")
 
 ## printout backets
 bracket_SOUTH_M
@@ -148,25 +155,36 @@ rfinal_four(final_four=c(rbracket_SOUTH_M[[4]], rbracket_MIDWEST_M[[4]],  rbrack
 
 
 ## define brackets for Women's Tournament 
-bracket_GREENVILLE1 <- c("South Carolina", "Maryland", "Notre Dame", "UCLA", "Oklahoma", "Creighton", "Arizona", "South Florida", "Marquette", "West Virginia", "Mississippi State", "Portland", "Sacramento State", "Southern Utah", "Holy Cross", "Norfolk State")
-bracket_GREENVILLE2 <- c("Indiana", "Utah", "LSU", "Villanova", "Washington State", "Michigan", "NC State", "Oklahoma State", "Miami", "Princeton", "UNLV", "FGCU", "Cleveland State", "Hawai'i", "Gardner-Webb", "TNTC/MON")
-bracket_SEATTLE4 <- c("Stanford", "Iowa", "Duke", "Texas", "Louisville", "Colorado", "Florida State", "Ole Miss", "Gonzaga", "Georgia", "MTSU", "Drake", "East Carolina", "Iona", "SE Louisiana", "SOU/SHU")
-bracket_SEATTLE3 <- c("Virginia Tech", "UConn", "Ohio State", "Tennessee", "Iowa State", "North Carolina", "Baylor", "USC", "S Dakota State", "Alabama", "Saint John's", "Toledo", "Saint Louis", "James Madison", "Vermont", "Chattanooga")
+##  2025 brackets
+bracket_SPOKANE1 <- c("UCLA", "N.C. State", "LSU", "Baylor", "Mississippi", "Florida State", "Michigan St.", "Richmond", "Georgia Tech", "Harvard", "George Mason", "Ball St.", "Grand Canyon", "San Diego State", "Vermont", "UCSD/SIU")
+
+bracket_SPOKANE4 <- c("Southern California", "Connecticut", "Oklahoma", "Kentucky", "Kansas State", "Iowa", "Oklahoma State", "California", "Mississippi St.", "San Diego State", "Murray State", "Fairfield", "Liberty", "Florida Gulf Coast", "Arkansas State", "NC-Greensboro")
+
+bracket_BIRMINGHAM2 <- c("South Carolina", "Duke", "North Carolina", "Maryland", "Alabama", "West Virginia", "Vanderbilt", "Utah", "Indiana", "Oregon", "Columbia/Washington", "Green Bay", "Norfolk State", "Oregon State", "Lehigh", "Tennessee Tech")
+
+bracket_BIRMINGHAM3 <- c("Texas", "Texas Christian University", "Notre Dame", "Ohio State", "Tennessee", "Michigan", "Louisville", "Illinois", "Creighton", "Nebraska", "Iowa State/Princeton", "South Florida", "Montana state", "Stephen F. Austin", "Fairleigh Dickinson", "High Point/William & Mary")
+
+
+## 2024 brackets
+#bracket_GREENVILLE1 <- c("South Carolina", "Maryland", "Notre Dame", "UCLA", "Oklahoma", "Creighton", "Arizona", "South Florida", "Marquette", "West Virginia", "Mississippi State", "Portland", "Sacramento State", "Southern Utah", "Holy Cross", "Norfolk State")
+#bracket_GREENVILLE2 <- c("Indiana", "Utah", "LSU", "Villanova", "Washington State", "Michigan", "NC State", "Oklahoma State", "Miami", "Princeton", "UNLV", "FGCU", "Cleveland State", "Hawai'i", "Gardner-Webb", "TNTC/MON")
+#bracket_SEATTLE4 <- c("Stanford", "Iowa", "Duke", "Texas", "Louisville", "Colorado", "Florida State", "Ole Miss", "Gonzaga", "Georgia", "MTSU", "Drake", "East Carolina", "Iona", "SE Louisiana", "SOU/SHU")
+#bracket_SEATTLE3 <- c("Virginia Tech", "UConn", "Ohio State", "Tennessee", "Iowa State", "North Carolina", "Baylor", "USC", "S Dakota State", "Alabama", "Saint John's", "Toledo", "Saint Louis", "James Madison", "Vermont", "Chattanooga")
 
 
 ## take random draw from the bracket function
-rbracket_GREENVILLE1 <- rbracket(bracket_GREENVILLE1)
-rbracket_GREENVILLE2 <- rbracket(bracket_GREENVILLE2)
-rbracket_SEATTLE4 <- rbracket(bracket_SEATTLE4)
-rbracket_SEATTLE3 <- rbracket(bracket_SEATTLE3)
+rbracket_SPOKANE1 <- rbracket(bracket_SPOKANE1)
+rbracket_SPOKANE4 <- rbracket(bracket_SPOKANE4)
+rbracket_BIRMINGHAM2 <- rbracket(bracket_BIRMINGHAM2)
+rbracket_BIRMINGHAM3 <- rbracket(bracket_BIRMINGHAM3)
 
-rbracket_GREENVILLE1
-rbracket_GREENVILLE2
-rbracket_SEATTLE4
-rbracket_SEATTLE3
+rbracket_SPOKANE1
+rbracket_SPOKANE4
+rbracket_BIRMINGHAM2
+rbracket_BIRMINGHAM3
 
 ## random draw from final four 
-rfinal_four(final_four=c(rbracket_GREENVILLE1[[4]], rbracket_GREENVILLE2[[4]],  rbracket_SEATTLE4[[4]], rbracket_SEATTLE3[[4]]))
+rfinal_four(final_four=c(rbracket_SPOKANE1[[4]], rbracket_SPOKANE4[[4]],  rbracket_BIRMINGHAM2[[4]], rbracket_BIRMINGHAM3[[4]]))
 
 
 
