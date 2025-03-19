@@ -155,7 +155,7 @@ rbracket_EAST_M
 rbracket_WEST_M
 
 ## random draw from final four 
-rfinal_four(final_four=c(rbracket_SOUTH_M[[4]], rbracket_MIDWEST_M[[4]],  rbracket_EAST_M[[4]], rbracket_WEST_M[[4]]))
+rfinal_four(final_four=c(rbracket_SOUTH_M[[4]], rbracket_WEST_M[[4]], rbracket_MIDWEST_M[[4]],  rbracket_EAST_M[[4]]))
 
 
 ## define brackets for Women's Tournament 
