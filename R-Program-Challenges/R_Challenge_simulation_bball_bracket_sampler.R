@@ -132,12 +132,16 @@ bracket_WEST_M <- c("Florida", "St. John's", "Texas Tech", "Maryland", "Memphis"
 #bracket_EAST_M <- c("Purdue", "Marquette", "Kansas State", "Tennessee", "Duke", "Kentucky", "Michigan State", "Memphis", "Florida Atlantic", "USC", "Providence", "Oral Roberts", "Louisiana", "Montana State", "Vermont", "FDU/TexSou")
 #bracket_WEST_M <- c("Kansas", "UCLA", "Gonzaga", "Connecticut", "St. Mary's", "TCU", "Northwestern", "Arkansas", "Illinois", "Boise State", "ASU/Nev", "VCU", "Iona", "Grand Canyon", "N.C. Asheville", "Howard")
 
-## printout backets
+## printout brackets
 bracket_SOUTH_M
 bracket_MIDWEST_M
 bracket_EAST_M
 bracket_WEST_M
 
+
+seed_value <- prod(c(2,4,16,14,15,15,12,18,2,20,4,3,15))/(13^3)
+seed_value
+set.seed(seed_value)
 
 ## take random draw from the bracket function
 rbracket_SOUTH_M <- rbracket(bracket_SOUTH_M)
