@@ -118,7 +118,7 @@ rbracket(bracket=c("team_1", "team_2", "team_3", "team_4", "team_5", "team_6", "
 
 ## define brackets Men's Tournament
 ## 2025 brackets
-bracket_SOUTH_M <- c("Auburn", "Michigan State", "Iowa State", "Texas A&M", "Michigan", "Ole Miss", "Maruette", "Louisville", "Creighton", "New Mexico", "San Diego State", "UC San Diego", "Yale", "Lipscomb", "Bryant", "Alabama State")
+bracket_SOUTH_M <- c("Auburn", "Michigan State", "Iowa State", "Texas A&M", "Michigan", "Ole Miss", "Maruette", "Louisville", "Creighton", "New Mexico", "North Carolina", "UC San Diego", "Yale", "Lipscomb", "Bryant", "Alabama State")
 
 bracket_MIDWEST_M <- c("Houston", "Teneessee", "Kentucky", "Purdue", "Clemson", "Illinois", "UCLA", "Gonzaga", "Georgia", "Utah State", "Texas", "McNeese", "High Point", "Troy", "Wofford", "SIUE")
 
@@ -157,12 +157,13 @@ rbracket_WEST_M
 ## random draw from final four 
 rfinal_four(final_four=c(rbracket_SOUTH_M[[4]], rbracket_WEST_M[[4]], rbracket_MIDWEST_M[[4]],  rbracket_EAST_M[[4]]))
 
+rpois(2, 70)
 
 ## define brackets for Women's Tournament 
 ##  2025 brackets
 bracket_SPOKANE1 <- c("UCLA", "N.C. State", "LSU", "Baylor", "Mississippi", "Florida State", "Michigan St.", "Richmond", "Georgia Tech", "Harvard", "George Mason", "Ball St.", "Grand Canyon", "San Diego State", "Vermont", "UCSD/SIU")
 
-bracket_SPOKANE4 <- c("Southern California", "Connecticut", "Oklahoma", "Kentucky", "Kansas State", "Iowa", "Oklahoma State", "California", "Mississippi St.", "San Diego State", "Murray State", "Fairfield", "Liberty", "Florida Gulf Coast", "Arkansas State", "NC-Greensboro")
+bracket_SPOKANE4 <- c("Southern California", "Connecticut", "Oklahoma", "Kentucky", "Kansas State", "Iowa", "Oklahoma State", "California", "Mississippi St.", "South Dakota State", "Murray State", "Fairfield", "Liberty", "Florida Gulf Coast", "Arkansas State", "NC-Greensboro")
 
 bracket_BIRMINGHAM2 <- c("South Carolina", "Duke", "North Carolina", "Maryland", "Alabama", "West Virginia", "Vanderbilt", "Utah", "Indiana", "Oregon", "Columbia/Washington", "Green Bay", "Norfolk State", "Oregon State", "Lehigh", "Tennessee Tech")
 
@@ -175,6 +176,11 @@ bracket_BIRMINGHAM3 <- c("Texas", "Texas Christian University", "Notre Dame", "O
 #bracket_SEATTLE4 <- c("Stanford", "Iowa", "Duke", "Texas", "Louisville", "Colorado", "Florida State", "Ole Miss", "Gonzaga", "Georgia", "MTSU", "Drake", "East Carolina", "Iona", "SE Louisiana", "SOU/SHU")
 #bracket_SEATTLE3 <- c("Virginia Tech", "UConn", "Ohio State", "Tennessee", "Iowa State", "North Carolina", "Baylor", "USC", "S Dakota State", "Alabama", "Saint John's", "Toledo", "Saint Louis", "James Madison", "Vermont", "Chattanooga")
 
+
+seed_value2 <- prod(c(19,6,12,20,8,4,14,10,10,10,6,14,2))/(13^3)
+seed_value2
+set.seed(seed_value2)
+#sample(1:20,1)
 
 ## take random draw from the bracket function
 rbracket_SPOKANE1 <- rbracket(bracket_SPOKANE1)
@@ -191,4 +197,5 @@ rbracket_BIRMINGHAM3
 rfinal_four(final_four=c(rbracket_SPOKANE1[[4]], rbracket_SPOKANE4[[4]],  rbracket_BIRMINGHAM2[[4]], rbracket_BIRMINGHAM3[[4]]))
 
 
+rpois(2, 70)
 
