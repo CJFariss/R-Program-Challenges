@@ -157,7 +157,9 @@ rbracket_WEST_M
 ## random draw from final four 
 rfinal_four(final_four=c(rbracket_SOUTH_M[[4]], rbracket_WEST_M[[4]], rbracket_MIDWEST_M[[4]],  rbracket_EAST_M[[4]]))
 
+## point prediction
 rpois(2, 70)
+
 
 ## define brackets for Women's Tournament 
 ##  2025 brackets
@@ -197,5 +199,6 @@ rbracket_BIRMINGHAM3
 rfinal_four(final_four=c(rbracket_SPOKANE1[[4]], rbracket_SPOKANE4[[4]],  rbracket_BIRMINGHAM2[[4]], rbracket_BIRMINGHAM3[[4]]))
 
 
+## point prediction
 rpois(2, 70)
 
