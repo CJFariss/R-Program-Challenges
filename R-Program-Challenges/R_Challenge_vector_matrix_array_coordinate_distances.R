@@ -29,9 +29,9 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Write a program to create a 1-D vector (1-dimensional) object of arbitrary length.
+## (1) Write a program to create a 1-D vector (1-dimensional) object of arbitrary length (arbitrary just means user choice; not randomly generated using a random number or sudo-random number generator).
 ##
-## (2) Choose a position in the vector (coordinate).
+## (2) Choose an arbitrary position in the vector coordinate (you can make this randomly selected later).
 ##
 ## (3) Generate a new vector with the distances from the chosen position in the vector to every other element in the vector. The distance formula we will use is sqrt((position_vector - coordinate)^2).
 ##
