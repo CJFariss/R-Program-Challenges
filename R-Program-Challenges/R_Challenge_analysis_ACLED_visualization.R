@@ -27,6 +27,8 @@
 ##
 ##########################################################################
 ##
+## Start at STEP 9
+##
 ## Steps for the Challenge
 ##
 ## Extract event data from ACLED API at: https://www.acleddata.com/
@@ -59,7 +61,7 @@
 ##
 ## Warning: The rest of these steps are more challenging:
 ## 
-## GRAPHS:
+## Data Visualization:
 ## (Note we will cover a little bit more about working with text-as-data in 2 weeks)
 ##
 ## (9) Make a barplot of the proportion of EVENT_TYPE for your country from each of the three datasets included in this challenge

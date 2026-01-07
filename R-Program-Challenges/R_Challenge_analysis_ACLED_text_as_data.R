@@ -27,6 +27,8 @@
 ##
 ##########################################################################
 ##
+## Start at STEP 12
+##
 ## Steps for the Challenge
 ##
 ## Extract event data from ACLED API at: https://www.acleddata.com/
