@@ -31,7 +31,7 @@
 ##
 ## (1) Write a program to select a single number (arbitrarily or randomly). We will call this the "target" variable later on.
 ## (2) Create a sequence of numeric values (numbers) starting from 0 to the number selected in step (1). Set the length of sequence to 10 or 100 (start with 10).
-## (3) Create a new object which is the pairwise produce of each value in the sequence. Hint: just multipy the sequence object created in step (2) by itself.
+## (3) Create a new object which is the pairwise product of each value in the sequence. Hint: just multipy the sequence object created in step (2) by itself. So if the sequence of numbers if 0 to 5, the vector of pairwise products will be 0, 1, 4, 9, 16, 25.
 ##
 ## (4) Is any value in the object created in step (3) equal to the number selected in step (1)? If there is a number in the new obkject equal to the target variable then you don't need to continue with this particular target number. So pick a new target number and continue to step (5).
 ##
