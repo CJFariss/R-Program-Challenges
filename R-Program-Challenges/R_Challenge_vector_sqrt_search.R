@@ -54,6 +54,6 @@
 ##
 ## (9b) Test the precision of the estimate from your function up to 22 significant digits.
 ##
-## (10) Can you improve the precision of your function by transforming the numbers using natural logs with the log() function?
+## (10) Can you improve the precision of your function by transforming the numbers using natural logs with the log() function? Hint: recall that exp(log(x) + log(x)) = x*x. So for example, the following statement in R is TRUE: exp(log(pi)+log(pi))==pi*pi
 ##
 ##########################################################################
