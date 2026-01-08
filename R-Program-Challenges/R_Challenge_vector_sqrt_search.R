@@ -9,7 +9,7 @@
 ## COURSE NAME: Advanced Computational Methods for Social Media and Textual Data (3B, 2F)
 ## University of Essex Summer School 2023, 2022, 2021, 2020
 ##
-## Date: 2025-01-08
+## Date: 2026-01-07
 ##
 ## Please e-mail me if you find any errors or have and suggestions (either email is fine)
 ## e-mail: cjf0006@gmail.com
@@ -46,8 +46,14 @@
 ##
 ## (7) Write a function to complete this process.
 ##
-## Congratulations, you have iteratively calculated the sqrt of a number without using the built in sqrt() function.
+## (8) Generalize the above to find the sqrt for numbers less than 1.
 ##
-## (8) Compare the the output of your function from line (7) to the sqrt() function. Which value is more precises? Can you increase the precision of the function from step (7)? 
+## Congragulations, you have iteratively calculated the sqrt of a number without using the built in sqrt() function.
+##
+## (9) Compare the the output of your function from line (8) to the sqrt() function. Which value is more precises? Can you increase the precision of the function from step (8)?
+##
+## (9b) Test the precision of the estimate from your function up to 22 significant digits.
+##
+## (10) Can you improve the precision of your function by transforming the numbers using natural logs with the log() function?
 ##
 ##########################################################################
