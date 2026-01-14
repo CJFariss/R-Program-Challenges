@@ -29,7 +29,7 @@
 ##
 ## Steps for the Challenge
 ##
-## (1) Write a program to create a 1-D vector (1-dimensional) object of arbitrary length (arbitrary just means user choice; not randomly generated using a random number or sudo-random number generator).
+## (1) Write a program to create an empty 1-D vector (1-dimensional) object of arbitrary length (arbitrary just means user choice; not randomly generated using a random number or sudo-random number generator). Empty means that the vector will have empty coordinate positions. NAs represent empty positions.
 ##
 ## (2) Choose an arbitrary position in the vector coordinate (you can make this randomly selected later).
 ##
