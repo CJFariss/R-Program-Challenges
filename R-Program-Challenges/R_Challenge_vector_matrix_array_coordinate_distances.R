@@ -37,7 +37,7 @@
 ##
 ## (4) Repeat steps 1-3 for a 2-D matrix (2-dimensional) object with dimensions for rows and columns. I'll refer to the rows as x and columns as y in the rest of this step's instructions. The distance between two cells in a matrix with coordinates (x1, y1) and (x2, y2) is the square root of the squared distances (hint use the sqrt() function): sqrt((x1 - x2)^2 + (y1 - y2)^2). It can also look like: sqrt((position_vector_rows_1 - coordinate_row)^2 + (position_vector_cols_1 - coordinate_col)^2)
 ##
-## (5) Generalize (4) for an array of 3 dimensions. The distance between two cells in a 3-D array with coordinates (x1, y1, z1) and (x2, y2, z2) is the square root of the squared distances: sqrt((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2).
+## (5) Generalize (4) for an array of 3 dimensions. The distance between two cells in a 3-D array with coordinates (x1, y1, z1) and (x2, y2, z2) is the square root of the squared distances: sqrt((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2). It can also look like: sqrt((position_vector_rows_1 - coordinate_row)^2 + (position_vector_cols_1 - coordinate_col)^2 + (position_vector_slice_1 - coordinate_slice)^2)
 ##
 ## warning: it's going to be even more challenging below.
 ##
