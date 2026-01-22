@@ -57,11 +57,12 @@ head(capital_city_lat_long)
 ## define a function to calculate distance between pairs of lat/long coordinates
 great_circle_distance <- function(coordinate_pair1, coordinate_pair2){
     R <- 6378.7
+    radians <- 180/pi ## degrees to radians
     lat1 <- as.numeric(coordinate_pair1[1])
     lat2 <- as.numeric(coordinate_pair2[1])
     long1 <- as.numeric(coordinate_pair1[2])
     long2 <- as.numeric(coordinate_pair2[2])
-    great_circle_distance <- R * acos(sin(lat1/57.2958) * sin(lat2/57.2958) + cos(lat1/57.2958) * cos(lat2/57.2958) *  cos(long2/57.2958 -long1/57.2958))
+    great_circle_distance <- R * acos(sin(lat1/radians) * sin(lat2/radians) + cos(lat1/radians) * cos(lat2/radians) *  cos(long2/radians -long1/radians))
     return(great_circle_distance)
 }
 
