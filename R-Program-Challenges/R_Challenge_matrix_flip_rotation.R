@@ -30,7 +30,7 @@
 ##
 ## Steps for the Challenge:
 ##
-## (1) Write a program to generate a character matrix.
+## (1) Generate a character matrix.
 ##
 ## (2) Rotate the matrix 90 degrees
 ##
@@ -38,7 +38,7 @@
 ##
 ## (4) Write a function to complete step (2) and step (3).
 ##
-## (5) The rotation and flip of the matrix is equivalent to a matrix transposition which you can also accomplish using the transposition function: t(). Check to see if you program from step (2) and step (3) create an equivalent sructure to the t() function.
+## (5) The rotation and flip of the matrix is equivalent to a matrix transposition which you can also accomplish using the transposition function: t(). Check to see if you program from step (2) and step (3) create an equivalent structure to the t() function.
 ##
 ##########################################################################
 
