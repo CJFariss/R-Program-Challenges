@@ -43,7 +43,7 @@
 ##
 ## Steps for the Challenge:
 ##
-## (1) Write a program to create a Sudoku matrix (you can use the example above to start). There are many websites with completed Sudoku puzzles that you can choose from.
+## (1) Create a Sudoku matrix (you can use the example above to start). There are many websites with completed puzzles that you can choose from.
 ##
 ## (2) Write a program to check if a solved Sudoku puzzle like the example above is complete. Describe each test you program with detailed comments. Recall that every row, every column, and each 3x3 submatrix contain all of the digits in the sequence from 1 to 9 by 1.
 ##
