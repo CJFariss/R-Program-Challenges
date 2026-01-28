@@ -46,7 +46,7 @@
 ## (5a) Calculate the relationship between the size of the vector/matrix/array from above and compare it to the number of coordinates that have only positive values.
 ## (5b) How does this value change as a function of the dimensions of the array? Does this value change when the size of the vector/matrix/array changes?
 ##
-## Note: this next part is difficult in R but less so in some other programming languages.
+## warning: this next part is difficult in R but less so in some other programming languages.
 ##
 ## (6) Can this process be extended to an array of arbitrary size? Can you write a function to complete this task?
 ##
