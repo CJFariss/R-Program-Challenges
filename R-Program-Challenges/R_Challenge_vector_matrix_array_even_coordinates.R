@@ -48,7 +48,7 @@
 ##
 ## warning: this next part is difficult in R but less so in some other programming languages.
 ##
-## (6) Can this process be extended to an array of arbitrary size? Can you write a function to complete this task?
+## (6) Can this process be extended to an array of arbitrary size and any dimension? Can you write a function to complete this task?
 ##
 ##########################################################################
 
