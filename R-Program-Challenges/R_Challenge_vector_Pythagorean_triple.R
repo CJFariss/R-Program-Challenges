@@ -39,6 +39,8 @@
 ##
 ## (5) Calculate the distance between values that satisfy the equation in (1) using the vector in (4).
 ##
+## (6) Create a data.frame object to store the initial value, the a and b values and the distances 
+##
 ##########################################################################
 
 
