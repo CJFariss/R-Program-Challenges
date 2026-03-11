@@ -38,7 +38,7 @@ single_lego_brick_sample_space
 ##
 ## (2) how many elements are in the set B for this sample space?
 ##
-## (3) sample yellow lego bricks and red lego bricks proportionally to their relative size (hint: think of each lego as a matrix, how big is each using nrow()*ncol() or length(). See also: https://www.lego.com/en-us/page/static/pick-a-brick or http://brickr.org/).
+## (3) sample yellow lego bricks and red lego bricks proportionally to their relative quantity or length (hint: think of each lego as a matrix, how big is each using nrow()*ncol() or length(). See also: https://www.lego.com/en-us/page/static/pick-a-brick or http://brickr.org/).
 ##
 ## (4) Define a larger sample space (>2) using some of the lego blocks in class (or see the photos of legos on canvas)
 ##
