@@ -204,8 +204,9 @@ bracket_FORT_WORTH_3 <- c( "Texas", "Michigan", "Louisville", "West Virginia", "
 
 
 #seed_value2 <- prod(c(19,6,12,20,8,4,14,10,10,10,6,14,2))/(13^3)
-#seed_value2
-#set.seed(seed_value2)
+seed_value2 <- prod(c(19,14,4,3,11))/(5^3)
+seed_value2
+set.seed(seed_value2)
 #sample(1:20,1)
 
 
@@ -233,7 +234,7 @@ rpois(2, 70.1)
 
 
 
-## an inititial simulation
+## an initial simulation
 n_sims <- 1000000
 out <- c()
 
