@@ -53,7 +53,7 @@
 ##
 ##
 ## Warning (this gets very challenging):
-## (11) Consider the answer for step (9). Simulate an additional variable that is (a) not related to either variable; (b-c) that is related to one variable but no the other variable (and the opposite); (d) related to both variables.  How does including one of each of thes variables created in step (a-d) in the regression change the other parameter estimates. How does the strength of the relationship change the original parameter estimates from step (9).
+## (11) Consider the answer for step (9). Simulate an additional variable that is (a) not related to either variable; (b-c) that is related to one variable but no the other variable (and the opposite); (d) related to both variables.  How does including one of each of these variables created in step (a-d) in the regression change the other parameter estimates. How does the strength of the relationship change the original parameter estimates from step (9).
 ##
 ## (12) Repeat for the original parameter estimates from step (10).
 ##
