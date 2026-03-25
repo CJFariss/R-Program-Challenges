@@ -37,32 +37,37 @@
 ##
 ## (4) How does the theta_mean human righst variable relate to the other variables in the dataset? Calculate the covariance and correlations between this variable and these other variables. Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
 ##
-## (5) Merge the human rights dataset with another dataset that contains a measure of democracy (e.g., VDEM or Polity).
+## (5) Estimate the yearly mean and variance for the theta_mean human rights variable. Bonus: What is the probability that one year is different than other years?
 ##
-## (6) How does the theta_mean human righst variable relate to one or more democracy variables in the dataset? Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
+## (6) Merge the human rights dataset with another dataset that contains a measure of democracy (e.g., VDEM or Polity).
 ##
-## (7a) Calculate the mean and variance of the human rights variable using the maximum likelihood method. Calculate the mean parametere and the likelihood statistics for all possible parameter values of the mean. Calculate the mean the likelihood statistic using the optim function.
-## (7b) Use these methods to also estimate the variance
+## (7) How does the theta_mean human righst variable relate to one or more democracy variables in the dataset? Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
 ##
-## (8) Estimate a linear relationship between human rights and democracy using the lm() function. Calculate the likelihood statistics for all possible values of the two regression parameters (intercept and slope). Calculate the the likelihood statistic and regression parameters using the optim function. Use both variables as Y/X, DV/IV, Dependent Variables/Independent Variable.
+## (8a) Calculate the mean and variance of the human rights variable using the maximum likelihood method. Calculate the mean parametere and the likelihood statistics for all possible parameter values of the mean. Calculate the mean the likelihood statistic using the optim function.
+## (8b) Use these methods to also estimate the variance
+##
+## (9) Estimate a linear relationship between human rights and democracy using the lm() function. Calculate the likelihood statistics for all possible values of the two regression parameters (intercept and slope). Calculate the the likelihood statistic and regression parameters using the optim function. Use both variables as Y/X, DV/IV, Dependent Variables/Independent Variable.
 ##
 ## Warning (this gets challenging):
-## (9) Create a binary democracy variable using information from the democracy dataset then repeat step (8) above.
+## (10) Create a binary democracy variable using information from the democracy dataset then repeat step (9) above.
 ##
 ##
 ## Warning (this gets very challenging):
-## (10) Consider the answer for step (8). Simulate an additional variable that is (a) not related to either variable; (b-c) that is related to one variable but no the other variable (and the opposite); (d) related to both variables.  How does including one of each of thes variables created in step (a-d) in the regression change the other parameter estimates. How does the strength of the relationship change the original parameter estimates from step (8).
+## (11) Consider the answer for step (9). Simulate an additional variable that is (a) not related to either variable; (b-c) that is related to one variable but no the other variable (and the opposite); (d) related to both variables.  How does including one of each of thes variables created in step (a-d) in the regression change the other parameter estimates. How does the strength of the relationship change the original parameter estimates from step (9).
+##
+## (12) Repeat for the original parameter estimates from step (10).
 ##
 ##########################################################################
 
-## step (1) and step (5):
-## getting started:
+## step (1)
+hr <- read.csv("Datasets/HumanRightsProtectionScores_v4.01.csv")
+
+
+
+## step (5):
 #install.packages("peacesciencer")
 library(peacesciencer)
-
-## this is the way we have been creating function calls in R (you can also use the pipe operator which I'll teach you later in the course: %>% or |>)
 df <- create_stateyears(system="cow", mry=TRUE, subset_years=1946:2019)  ## look at the post WWII period for this example
 df <-  add_democracy(data=df) ## allows you to add war variable from the correlates of war dataset (these are custom merge functions)
-hr <- read.csv("Datasets/HumanRightsProtectionScores_v4.01.csv")
 df <- merge(df, hr, by.x=c("ccode","year"), by.y=c("COW","YEAR"))
 
