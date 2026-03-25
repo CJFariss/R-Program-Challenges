@@ -37,7 +37,7 @@
 ##
 ## (4) How does the theta_mean human rights variable relate to the other variables in the dataset? Calculate the covariance and correlations between this variable and these other variables. Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
 ##
-## (5) Estimate the yearly mean and variance for the theta_mean human rights variable. Bonus: What is the probability that one year is different than other years?
+## (5) Estimate the yearly mean and variance for the theta_mean human rights variable. (Bonus: What is the probability that one year is different than other years? note you do not have to complete the bonus part of this step)
 ##
 ## (6) Merge the human rights dataset with another dataset that contains a measure of democracy (e.g., VDEM or Polity).
 ##
