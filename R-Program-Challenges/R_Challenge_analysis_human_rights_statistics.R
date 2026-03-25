@@ -35,13 +35,13 @@
 ##
 ## (3) Find the variance and standard deviation for the theta_mean human rights variable. Calculate this using the base R functions and the distance method.
 ##
-## (4) How does the theta_mean human righst variable relate to the other variables in the dataset? Calculate the covariance and correlations between this variable and these other variables. Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
+## (4) How does the theta_mean human rights variable relate to the other variables in the dataset? Calculate the covariance and correlations between this variable and these other variables. Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
 ##
 ## (5) Estimate the yearly mean and variance for the theta_mean human rights variable. Bonus: What is the probability that one year is different than other years?
 ##
 ## (6) Merge the human rights dataset with another dataset that contains a measure of democracy (e.g., VDEM or Polity).
 ##
-## (7) How does the theta_mean human righst variable relate to one or more democracy variables in the dataset? Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
+## (7) How does the theta_mean human rights variable relate to one or more democracy variables in the dataset? Calculate this using the base R functions for cor() and cov() and by using the distance from each value in the datset vector and the mean value of the variable.
 ##
 ## (8a) Calculate the mean and variance of the human rights variable using the maximum likelihood method. Calculate the mean parametere and the likelihood statistics for all possible parameter values of the mean. Calculate the mean the likelihood statistic using the optim function.
 ## (8b) Use these methods to also estimate the variance
@@ -64,7 +64,7 @@ hr <- read.csv("Datasets/HumanRightsProtectionScores_v4.01.csv")
 
 
 
-## step (5):
+## step (6):
 #install.packages("peacesciencer")
 library(peacesciencer)
 df <- create_stateyears(system="cow", mry=TRUE, subset_years=1946:2019)  ## look at the post WWII period for this example
