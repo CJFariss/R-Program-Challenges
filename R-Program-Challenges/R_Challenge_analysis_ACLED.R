@@ -29,6 +29,8 @@
 ##
 ## Steps for the Challenge
 ##
+## NOTE: The dataset for this challenge is located on the Canvas file page.
+##
 ## Extract event data from ACLED API at: https://www.acleddata.com/
 ## Note that because of changes to the ACLED website, I've now provided 3 of the curated datasets from ACLED in the Canvas course website.
 ## You're welcome to register at ACLED and download additional datasets if you are interested.

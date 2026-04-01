@@ -27,7 +27,8 @@
 ##
 ##########################################################################
 ##
-## Start at STEP 12
+## Note: Start at STEP 12
+## NOTE: The dataset for this challenge is located on the Canvas file page.
 ##
 ## Steps for the Challenge
 ##
