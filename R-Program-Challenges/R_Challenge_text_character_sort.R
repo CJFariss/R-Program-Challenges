@@ -37,7 +37,7 @@
 ## (6) create a function to implement the steps above
 ## (7) create another function to implement the steps above for a vector of character strings, this time count the number of unique words instead of characters
 ##
-## Warning: we cannot compelete this challenge anymore unless you have access to a historic twitter dataset.
+## Warning: we cannot complete this challenge anymore unless you have access to a historic twitter dataset.
 ##
 ## These next steps go beyond the material covered in the course (be wary but have fun):
 ##
