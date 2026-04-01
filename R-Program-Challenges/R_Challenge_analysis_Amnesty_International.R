@@ -41,13 +41,13 @@
 ## (2c) What are some the descriptive statistics for the variables (i.e. summary())?
 ##
 ## (3a) subset() the data to focus on 1 country (use your country from the case selection essay)
-## (3b) Inspect and explore the subset of the original ACLED data
+## (3b) Inspect and explore the subset of the original AIR-2022-text-sections-themes data
 ##
-## (4) Turn the Sec_Text description in the dataset into a Document-by-Term Matrix (DTM). For the DTM, we let i = 1, ..., N index documents and w = 1, ..., W index the unique terms in the collection of documents. For each of the i documents, we determine the frequency of each of the unique $w$ words. Each of the D_iw entries in a DTM represents  the number of times the w-th word appears in the i-th document. Make sure to extract the stop-words. 
+## (4) Using the full dataset, turn the Sec_Text column (which contains a long character string) in the dataset into a Document-by-Term Matrix (DTM). For the DTM, we let i = 1, ..., N index documents and w = 1, ..., W index the unique terms in the collection of documents. For each of the i documents, we determine the frequency of each of the unique $w$ words. Each of the D_iw entries in a DTM represents  the number of times the w-th word appears in the i-th document. Make sure to extract the stop-words. 
 ##
-## (5a) Which words are most commonly occurring for the entire dataset?
-## (5b) Which words are most commonly occurring for each Sec_Title in the dataset?
-## (5c) Which words are most commonly occurring for each Country_Name in the dataset?
+## (5a) Which words are most commonly occurring for the entire AIR-2022-text-sections-themes dataset?
+## (5b) Which words are most commonly occurring for each Sec_Title in the AIR-2022-text-sections-themes dataset?
+## (5c) Which words are most commonly occurring for each Country_Name in the AIR-2022-text-sections-themes dataset?
 ## 
 ## (6) What is the co-occurrence of commonly occurring words for each Sec_Title and Country_Name in the dataset? Calculate the correlation coefficient.
 ##
