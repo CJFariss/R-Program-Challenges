@@ -1,4 +1,4 @@
--## R_Challenge_textcharacter_sort.R
+## R_Challenge_textcharacter_sort.R
 ##########################################################################
 ## INSTRUCTOR: Christopher Fariss
 ##
